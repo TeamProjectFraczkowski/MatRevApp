@@ -19,9 +19,11 @@ public class TestActivity extends AppCompatActivity {
         // TODO: 23.04.2017 implement switching to another layouts
     }
 
+    //DISCUSS
+
+    //change the button for it
     public void seeResults(View view){
         Intent resultActivity = new Intent(this, ResultActivity.class);
-
         startActivity(resultActivity);
     }
 }

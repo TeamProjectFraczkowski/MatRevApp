@@ -17,8 +17,13 @@ public class MainActivity extends AppCompatActivity {
 
     /// Switch activity to the test Screen
     public void onTestButtonClick(View view){
-
         Intent testActivity = new Intent(this, TestActivity.class);
         startActivity(testActivity);
+    }
+
+    /// Switch activity to the revision screen
+    public void  onRevisionButtonClick(View view){
+        Intent revisionActivity = new Intent(this, RevisionActivity.class);
+        startActivity(revisionActivity);
     }
 }
