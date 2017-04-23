@@ -67,10 +67,11 @@
         android:layout_marginRight="10dp" />
 
     <Button
-        android:text="Następne pytanie"
+        android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button4"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:onClick="seeResults"
+        android:text="Następne pytanie" />
 </LinearLayout>
