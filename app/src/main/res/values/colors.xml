@@ -13,4 +13,6 @@
     <color name="colorAccent7">#272f32</color>
     <color name="colorAccent8">#272f32</color>
     <color name="colorAccent9">#272f32</color>
+    <color name="dotActive">#000000</color>
+    <color name="dotInactive">#cccccc</color>
 </resources>

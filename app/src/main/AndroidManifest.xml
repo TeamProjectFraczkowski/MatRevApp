@@ -15,9 +15,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestActivity"/>
-        <activity android:name=".ResultActivity"/>
-        <activity android:name=".RevisionActivity"/>
+        <activity android:name=".TestActivity"
+            android:label="Test">
+        </activity>
+        <activity android:name=".ResultActivity"
+            android:label="Rezultaty">
+        </activity>
+        <activity android:name=".RevisionActivity"
+            android:label="Powtórka">
+        </activity>
+        <activity android:name=".StudyActivity"
+            android:label="Nauka">
+        </activity>
+        <activity android:name=".StudyTopicActivity"
+            android:label="Temat 1">
+        </activity>
+        <activity android:name=".OptionsActivity"
+            android:label="Opcje">
+        </activity>
+        <activity android:name=".HelpActivity"
+            android:label="Pomoc">
+        </activity>
     </application>
 
 </manifest>

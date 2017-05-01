@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MatRev</string>
+
+    <string name="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nulla quis cursus ligula. Nam volutpat massa id leo aliquet, et finibus dui consequat.
+        Maecenas at lorem non ipsum ultricies convallis nec at augue. Maecenas dolor ipsum,
+        sodales sit amet erat eget, blandit dapibus est. Etiam molestie, magna nec iaculis rutrum,
+        leo felis egestas nulla, eget hendrerit sapien nunc a eros.
+    </string>
 </resources>

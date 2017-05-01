@@ -14,6 +14,19 @@ public class TestActivity extends AppCompatActivity {
 
     }
 
+    //to disable returning previous questions
+    @Override
+    public void onBackPressed() {}
+
+    public void goToQuestion2(View view)
+    {
+        setContentView(R.layout.activity_test2);
+    }
+
+    public void goToQuestion3(View view)
+    {
+        setContentView(R.layout.activity_test3);
+    }
 
     public void nextPage(View view){
         // TODO: 23.04.2017 implement switching to another layouts

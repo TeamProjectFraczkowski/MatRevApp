@@ -15,16 +15,16 @@
         android:layout_marginTop="15dp" />
 
     <TextView
-        android:text="Question 1"
+        android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView5"
-        android:textStyle="normal|bold"
-        android:textSize="24sp"
-        android:textColor="@color/darkBlue"
         android:layout_marginBottom="15dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp" />
+        android:layout_marginRight="10dp"
+        android:text="Question 3"
+        android:textColor="@color/darkBlue"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
 
     <RadioButton
         android:text="Answer 1"
@@ -72,6 +72,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
-        android:onClick="goToQuestion2"
-        android:text="Następne pytanie" />
+        android:onClick="seeResults"
+        android:text="Zakończ test" />
 </LinearLayout>

@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
-        android:text="Powtórka - Spis Treści"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:textColor="@color/darkBlue" />
+        android:layout_marginTop="10dp"
+        android:text="Powtórka - Spis Treści"
+        android:textAlignment="center"
+        android:textColor="@color/darkBlue"
+        android:textSize="30sp" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,125 +22,127 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
 
             <Button
-                android:text="Button"
+                android:id="@+id/button16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button16"
-                android:textColor="@color/lightBlue"
+                android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
 
             <Button
-                android:text="Button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/button17"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
                 android:id="@+id/button6"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
                 android:id="@+id/button15"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
                 android:id="@+id/button14"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
                 android:id="@+id/button12"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
                 android:id="@+id/button10"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
                 android:id="@+id/button11"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
                 android:id="@+id/button9"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
                 android:id="@+id/button8"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
                 android:id="@+id/button7"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
                 android:id="@+id/button5"
-                android:textColor="@color/lightBlue"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button13"
+                android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:textColor="@color/lightBlue"
-                android:layout_marginBottom="10dp" />
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/lightBlue" />
 
             <ListView
                 android:layout_width="match_parent"

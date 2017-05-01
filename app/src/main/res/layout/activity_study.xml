@@ -23,150 +23,153 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
 
             <Button
-                android:text="Button"
+                android:id="@+id/button16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button16"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
+                android:onClick="onTopic1ButtonClick"
+                android:text="Temat 1"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
 
             <Button
-                android:text="Button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/button17"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
                 android:id="@+id/button6"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
                 android:id="@+id/button15"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
                 android:id="@+id/button14"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
                 android:id="@+id/button12"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
                 android:id="@+id/button10"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
                 android:id="@+id/button11"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
                 android:id="@+id/button9"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
                 android:id="@+id/button8"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
                 android:id="@+id/button7"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
                 android:id="@+id/button5"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:layout_marginBottom="10dp" />
-
-            <Button
-                android:text="Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button13"
+                android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
+                android:text="Button"
                 android:textColor="@color/red"
-                tools:layout_marginBottom="10dp"
-                android:layout_marginBottom="10dp" />
+                tools:background="@color/darkBlue"
+                tools:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/darkBlue"
+                android:text="Button"
+                android:textColor="@color/red"
+                tools:layout_marginBottom="10dp" />
 
             <ListView
                 android:layout_width="match_parent"
