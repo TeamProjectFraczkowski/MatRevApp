@@ -16,6 +16,7 @@ public class ResultActivity extends AppCompatActivity {
 
     public void goToMainScreen(View view){
         Intent goToMainAcitivity = new Intent(this, MainActivity.class);
+        goToMainAcitivity.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(goToMainAcitivity);
     }
 }

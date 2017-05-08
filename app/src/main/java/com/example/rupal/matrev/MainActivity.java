@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed(){
         if (exit)
         {
-            moveTaskToBack(true);
             finish(); // finish activity
         }
         else

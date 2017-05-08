@@ -16,7 +16,8 @@ public class TestActivity extends AppCompatActivity {
 
     //to disable returning previous questions
     @Override
-    public void onBackPressed() {}
+    public void onBackPressed() {
+    }
 
     public void goToQuestion2(View view)
     {
