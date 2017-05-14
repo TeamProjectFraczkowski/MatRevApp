@@ -1,10 +1,10 @@
 package com.example.rupal.matrev;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.RadioButton;
+        import android.content.Intent;
+        import android.support.v7.app.AppCompatActivity;
+        import android.os.Bundle;
+        import android.view.View;
+        import android.widget.RadioButton;
 
 public class TestActivity extends AppCompatActivity {
 
@@ -12,7 +12,6 @@ public class TestActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
-
     }
 
     //to disable returning previous questions
@@ -52,7 +51,7 @@ public class TestActivity extends AppCompatActivity {
     }
 
     private boolean filled = false;
-
+    private int firstFilled, secondFilled = -1;
     private void checkButtons(int id1, int id2, int id3, int id4)
     {
         RadioButton rb = (RadioButton) findViewById(id1);
@@ -75,10 +74,21 @@ public class TestActivity extends AppCompatActivity {
 
     private void clearButton()
     {
+        RadioButton r = (RadioButton) findViewById(firstFilled);
+
+        if (firstFilled != secondFilled && secondFilled != -1) {
             r.setChecked(false);
             firstFilled = secondFilled;
         }
 
+        else
+        {
+            r.setChecked(true);
+        }
+    }
+
+
+    private void fill(RadioButton r1, RadioButton r2, RadioButton r3, RadioButton r4)
     {
         if (r1.isChecked())
             firstFilled = r1.getId();
@@ -90,6 +100,7 @@ public class TestActivity extends AppCompatActivity {
             firstFilled = r4.getId();
     }
 
+    private void fillSecond(RadioButton r1, RadioButton r2, RadioButton r3, RadioButton r4)
     {
         if (r1.isChecked() && r1.getId() != firstFilled)
             secondFilled = r1.getId();
