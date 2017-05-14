@@ -27,48 +27,41 @@
         android:layout_marginRight="10dp" />
 
     <RadioButton
-        android:text="Answer 1"
-        android:onClick="radio_clicked"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioButton"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp" />
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="radio_clicked"
+        android:text="Answer 1" />
 
     <RadioButton
-        android:text="Answer 2"
-        android:onClick="radio_clicked"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioButton2"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp" />
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="radio_clicked"
+        android:text="Answer 2" />
 
     <RadioButton
-        android:text="Answer 3"
-        android:onClick="radio_clicked"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioButton3"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp" />
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="radio_clicked"
+        android:text="Answer 3" />
 
     <RadioButton
-    android:text="Answer 4"
-    android:onClick="radio_clicked"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/radioButton4"
-    android:layout_marginBottom="10dp"
-    android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp" />
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="radio_clicked"
+        android:text="Answer 4" />
 
     <Button
         android:id="@+id/button4"

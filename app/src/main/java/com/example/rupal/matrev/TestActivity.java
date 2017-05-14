@@ -46,12 +46,13 @@ public class TestActivity extends AppCompatActivity {
         Intent popupActivity = new Intent(this, PopupActivity.class);
         startActivity(popupActivity);
     }
+
     public void radio_clicked(View view) {
         checkButtons(R.id.radioButton, R.id.radioButton2, R.id.radioButton3, R.id.radioButton4);
     }
 
     private boolean filled = false;
-    private int firstFilled, secondFilled = -1;
+
     private void checkButtons(int id1, int id2, int id3, int id4)
     {
         RadioButton rb = (RadioButton) findViewById(id1);
@@ -74,21 +75,10 @@ public class TestActivity extends AppCompatActivity {
 
     private void clearButton()
     {
-        RadioButton r = (RadioButton) findViewById(firstFilled);
-
-        if (firstFilled != secondFilled && secondFilled != -1) {
             r.setChecked(false);
             firstFilled = secondFilled;
         }
 
-        else
-        {
-            r.setChecked(true);
-        }
-    }
-
-
-    private void fill(RadioButton r1, RadioButton r2, RadioButton r3,RadioButton r4)
     {
         if (r1.isChecked())
             firstFilled = r1.getId();
@@ -100,7 +90,6 @@ public class TestActivity extends AppCompatActivity {
             firstFilled = r4.getId();
     }
 
-    private void fillSecond(RadioButton r1, RadioButton r2, RadioButton r3, RadioButton r4)
     {
         if (r1.isChecked() && r1.getId() != firstFilled)
             secondFilled = r1.getId();

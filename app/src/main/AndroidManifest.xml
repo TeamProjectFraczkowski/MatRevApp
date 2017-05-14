@@ -31,7 +31,25 @@
             android:label="Nauka">
         </activity>
         <activity android:name=".StudyTopicActivity"
-            android:label="Temat 1">
+            android:label="Dozór Techniczny">
+        </activity>
+        <activity android:name=".StudyTopic2Activity"
+            android:label="Obowiązki">
+        </activity>
+        <activity android:name=".StudyTopic3Activity"
+            android:label="Rodzaje Urządzeń">
+        </activity>
+        <activity android:name=".StudyTopic4Activity"
+            android:label="Najważniejsze Parametry">
+        </activity>
+        <activity android:name=".StudyTopic5Activity"
+            android:label="Obsługa">
+        </activity>
+        <activity android:name=".StudyTopic6Activity"
+            android:label="Zagrożenia">
+        </activity>
+        <activity android:name=".StudyTopic7Activity"
+            android:label="Zabezpieczenia podestu">
         </activity>
         <activity android:name=".OptionsActivity"
             android:label="Opcje">
