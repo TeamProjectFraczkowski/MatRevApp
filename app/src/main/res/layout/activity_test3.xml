@@ -67,6 +67,13 @@
         android:layout_marginRight="10dp" />
 
     <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Porzuć Test"
+        android:onClick="popupConfirmation"/>
+
+    <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
