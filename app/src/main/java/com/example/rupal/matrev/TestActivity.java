@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RadioButton;
 
 public class TestActivity extends AppCompatActivity {
 
@@ -44,5 +45,70 @@ public class TestActivity extends AppCompatActivity {
     public void popupConfirmation(View view) {
         Intent popupActivity = new Intent(this, PopupActivity.class);
         startActivity(popupActivity);
+    }
+    public void radio_clicked(View view) {
+        checkButtons(R.id.radioButton, R.id.radioButton2, R.id.radioButton3, R.id.radioButton4);
+    }
+
+    private boolean filled = false;
+    private int firstFilled, secondFilled = -1;
+    private void checkButtons(int id1, int id2, int id3, int id4)
+    {
+        RadioButton rb = (RadioButton) findViewById(id1);
+        RadioButton rb2 = (RadioButton) findViewById(id2);
+        RadioButton rb3 = (RadioButton) findViewById(id3);
+        RadioButton rb4 = (RadioButton) findViewById(id4);
+
+        if (filled)
+        {
+            fillSecond(rb, rb2, rb3, rb4);
+            clearButton();
+        }
+
+        else {
+            fill(rb,rb2,rb3,rb4);
+            filled = true;
+        }
+
+    }
+
+    private void clearButton()
+    {
+        RadioButton r = (RadioButton) findViewById(firstFilled);
+
+        if (firstFilled != secondFilled && secondFilled != -1) {
+            r.setChecked(false);
+            firstFilled = secondFilled;
+        }
+
+        else
+        {
+            r.setChecked(true);
+        }
+    }
+
+
+    private void fill(RadioButton r1, RadioButton r2, RadioButton r3,RadioButton r4)
+    {
+        if (r1.isChecked())
+            firstFilled = r1.getId();
+        if (r2.isChecked())
+            firstFilled = r2.getId();
+        if (r3.isChecked())
+            firstFilled = r3.getId();
+        if (r4.isChecked())
+            firstFilled = r4.getId();
+    }
+
+    private void fillSecond(RadioButton r1, RadioButton r2, RadioButton r3, RadioButton r4)
+    {
+        if (r1.isChecked() && r1.getId() != firstFilled)
+            secondFilled = r1.getId();
+        if (r2.isChecked() && r2.getId() != firstFilled)
+            secondFilled = r2.getId();
+        if (r3.isChecked() && r3.getId() != firstFilled)
+            secondFilled = r3.getId();
+        if (r4.isChecked() && r4.getId() != firstFilled)
+            secondFilled = r4.getId();
     }
 }
