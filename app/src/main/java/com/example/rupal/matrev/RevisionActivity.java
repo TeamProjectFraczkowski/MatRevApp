@@ -18,7 +18,37 @@ public class RevisionActivity extends AppCompatActivity {
     }
 
     public void onTopic1ButtonClick(View view){
-        Intent topic1Activity = new Intent(this, RevisionTopicActivity.class);
-        startActivity(topic1Activity);
+        Intent topicActivity = new Intent(this, RevisionTopic1Activity.class);
+        startActivity(topicActivity);
+    }
+
+    public void onTopic2ButtonClick(View view){
+        Intent topicActivity = new Intent(this, RevisionTopic2Activity.class);
+        startActivity(topicActivity);
+    }
+
+    public void onTopic3ButtonClick(View view){
+        Intent topicActivity = new Intent(this, RevisionTopic3Activity.class);
+        startActivity(topicActivity);
+    }
+
+    public void onTopic4ButtonClick(View view){
+        Intent topicActivity = new Intent(this, RevisionTopic4Activity.class);
+        startActivity(topicActivity);
+    }
+
+    public void onTopic5ButtonClick(View view){
+        Intent topicActivity = new Intent(this, RevisionTopic5Activity.class);
+        startActivity(topicActivity);
+    }
+
+    public void onTopic6ButtonClick(View view){
+        Intent topicActivity = new Intent(this, RevisionTopic6Activity.class);
+        startActivity(topicActivity);
+    }
+
+    public void onTopic7ButtonClick(View view){
+        Intent topicActivity = new Intent(this, RevisionTopic7Activity.class);
+        startActivity(topicActivity);
     }
 }

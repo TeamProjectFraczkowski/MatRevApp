@@ -18,7 +18,7 @@ import android.widget.TextView;
  * Created by Paulina on 01.05.2017.
  */
 
-public class RevisionTopicActivity extends AppCompatActivity{
+public class RevisionTopic3Activity extends AppCompatActivity{
 
     private ViewPager viewPager;
     private ViewPagerAdapter viewPagerAdapter;
@@ -31,7 +31,7 @@ public class RevisionTopicActivity extends AppCompatActivity{
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_revision_topic);
+        setContentView(R.layout.activity_revision_topic3);
 
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         dotsLayout = (LinearLayout) findViewById(R.id.layoutDots);

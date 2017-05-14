@@ -43,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
+                android:onClick="onTopic2ButtonClick"
                 android:text="Stateczność"
                 android:textColor="@color/lightBlue" />
 
@@ -52,6 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
+                android:onClick="onTopic3ButtonClick"
                 android:text="Przechył"
                 android:textColor="@color/lightBlue" />
 
@@ -61,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
+                android:onClick="onTopic4ButtonClick"
                 android:text="Siły dynamiczne"
                 android:textColor="@color/lightBlue" />
 
@@ -70,6 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
+                android:onClick="onTopic5ButtonClick"
                 android:text="Wiatr"
                 android:textColor="@color/lightBlue" />
 
@@ -79,6 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
+                android:onClick="onTopic6ButtonClick"
                 android:text="Linie energoenergetyczne"
                 android:textColor="@color/lightBlue" />
 
@@ -88,6 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
+                android:onClick="onTopic7ButtonClick"
                 android:text="Zabezpieczenia"
                 android:textColor="@color/lightBlue" />
 
