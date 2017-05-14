@@ -39,6 +39,9 @@
         <activity android:name=".HelpActivity"
             android:label="Pomoc">
         </activity>
+        <activity android:name=".PopupActivity"
+            android:label="Pop">
+        </activity>
     </application>
 
 </manifest>

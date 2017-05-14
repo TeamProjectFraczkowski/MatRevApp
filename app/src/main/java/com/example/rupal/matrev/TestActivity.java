@@ -40,4 +40,9 @@ public class TestActivity extends AppCompatActivity {
         Intent resultActivity = new Intent(this, ResultActivity.class);
         startActivity(resultActivity);
     }
+
+    public void popupConfirmation(View view) {
+        Intent popupActivity = new Intent(this, PopupActivity.class);
+        startActivity(popupActivity);
+    }
 }

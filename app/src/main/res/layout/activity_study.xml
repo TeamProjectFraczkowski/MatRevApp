@@ -35,7 +35,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@color/darkBlue"
                 android:onClick="onTopic1ButtonClick"
-                android:text="Temat 1"
+                android:text="Dozór Techniczny"
                 android:textColor="@color/red"
                 tools:background="@color/darkBlue"
                 tools:layout_marginBottom="10dp" />
@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:text="Obowiązki"
                 android:textColor="@color/red"
                 tools:background="@color/darkBlue"
                 tools:layout_marginBottom="10dp" />
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:text="Rodzaje Urządzeń"
                 android:textColor="@color/red"
                 tools:background="@color/darkBlue"
                 tools:layout_marginBottom="10dp" />
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:text="Najważniejsze Parametry + Budowa"
                 android:textColor="@color/red"
                 tools:background="@color/darkBlue"
                 tools:layout_marginBottom="10dp" />
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:text="Obsługa"
                 android:textColor="@color/red"
                 tools:background="@color/darkBlue"
                 tools:layout_marginBottom="10dp" />
@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:text="Zagrożenia"
                 android:textColor="@color/red"
                 tools:background="@color/darkBlue"
                 tools:layout_marginBottom="10dp" />
@@ -101,74 +101,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:text="Zabezpieczenia Podestu"
                 android:textColor="@color/red"
                 tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp" />
-
-            <Button
-                android:id="@+id/button11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp" />
-
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp" />
-
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp" />
-
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/red"
-                tools:background="@color/darkBlue"
-                tools:layout_marginBottom="10dp" />
-
-            <Button
-                android:id="@+id/button13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/red"
                 tools:layout_marginBottom="10dp" />
 
             <ListView

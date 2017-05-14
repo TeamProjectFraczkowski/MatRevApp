@@ -74,4 +74,11 @@
         android:layout_marginTop="10dp"
         android:onClick="goToQuestion2"
         android:text="Następne pytanie" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Porzuć Test"
+        android:onClick="popupConfirmation"/>
 </LinearLayout>
