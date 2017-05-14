@@ -7,4 +7,11 @@
         sodales sit amet erat eget, blandit dapibus est. Etiam molestie, magna nec iaculis rutrum,
         leo felis egestas nulla, eget hendrerit sapien nunc a eros.
     </string>
+
+    <string name="studyTopic1Text1">Ustawa z  dnia 21 grudnia  2000 r.  o Dozorze Technicznym ( Dz. U. nr 122,poz 1321 ze zm. )
+        Art. 1
+        Ustawa określa zasady, zakres i formy wykonywania dozoru technicznego oraz jednostki właściwe  do jego wykonywania.
+        Art. 2 ust. 1
+        Dozorem Technicznym są określone ustawą działania zmierzające do zapewnienia bezpiecznego funkcjonowania urządzeń technicznych.
+    </string>
 </resources>
