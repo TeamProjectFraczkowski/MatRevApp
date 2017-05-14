@@ -33,7 +33,8 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:onClick="onTopic1ButtonClick"
+                android:text="Udźwig"
                 android:textColor="@color/lightBlue" />
 
             <Button
@@ -42,7 +43,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:onClick="onTopic2ButtonClick"
+                android:text="Stateczność"
                 android:textColor="@color/lightBlue" />
 
             <Button
@@ -51,7 +53,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:onClick="onTopic3ButtonClick"
+                android:text="Przechył"
                 android:textColor="@color/lightBlue" />
 
             <Button
@@ -60,7 +63,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:onClick="onTopic4ButtonClick"
+                android:text="Siły dynamiczne"
                 android:textColor="@color/lightBlue" />
 
             <Button
@@ -69,7 +73,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:onClick="onTopic5ButtonClick"
+                android:text="Wiatr"
                 android:textColor="@color/lightBlue" />
 
             <Button
@@ -78,7 +83,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
+                android:onClick="onTopic6ButtonClick"
+                android:text="Linie energoenergetyczne"
                 android:textColor="@color/lightBlue" />
 
             <Button
@@ -87,61 +93,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/lightBlue" />
-
-            <Button
-                android:id="@+id/button11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/lightBlue" />
-
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/lightBlue" />
-
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/lightBlue" />
-
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/lightBlue" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
-                android:textColor="@color/lightBlue" />
-
-            <Button
-                android:id="@+id/button13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
-                android:text="Button"
+                android:onClick="onTopic7ButtonClick"
+                android:text="Zabezpieczenia"
                 android:textColor="@color/lightBlue" />
 
             <ListView

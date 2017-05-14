@@ -42,6 +42,27 @@
         <activity android:name=".PopupActivity"
             android:label="Pop">
         </activity>
+        <activity android:name=".RevisionTopic1Activity"
+            android:label="Udźwig">
+        </activity>
+        <activity android:name=".RevisionTopic2Activity"
+            android:label="Stateczność">
+        </activity>
+        <activity android:name=".RevisionTopic3Activity"
+            android:label="Przechył">
+        </activity>
+        <activity android:name=".RevisionTopic4Activity"
+            android:label="Siły dynamiczne">
+        </activity>
+        <activity android:name=".RevisionTopic5Activity"
+            android:label="Wiatr">
+        </activity>
+        <activity android:name=".RevisionTopic6Activity"
+            android:label="Linie energoenergetyczne">
+        </activity>
+        <activity android:name=".RevisionTopic7Activity"
+            android:label="Zabezpieczenia">
+        </activity>
     </application>
 
 </manifest>
