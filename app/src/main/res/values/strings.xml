@@ -1,17 +1,107 @@
 <resources>
     <string name="app_name">MatRev</string>
 
-    <string name="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nulla quis cursus ligula. Nam volutpat massa id leo aliquet, et finibus dui consequat.
-        Maecenas at lorem non ipsum ultricies convallis nec at augue. Maecenas dolor ipsum,
-        sodales sit amet erat eget, blandit dapibus est. Etiam molestie, magna nec iaculis rutrum,
-        leo felis egestas nulla, eget hendrerit sapien nunc a eros.
+    <string name="studyTopic1Text3">
+        Art. 5 ust. 1
+        Dozorowi technicznemu podlegają urządzenia w toku ich projektowania , wytwarzania, w tym wytwarzania materiałów i elementów , napraw i modernizacji, obrotu oraz eksploatacji.
+        Art. 5 ust. 2
+        Rada Ministrów, w drodze rozporządzenia, określa rodzaje urządzeń technicznych podlegających dozorowi technicznemu.
+        Aktem wykonawczym do ustawy z dnia 21 grudnia 2000 r. o dozorze technicznym jest:
+        Rozporządzenie Rady  Ministrów  z dnia 16 lipca 2002 roku w sprawie rodzajów urządzeń technicznych podlegających dozorowi technicznemu.
+        (   Dz. U. nr 120, poz.  1021 z dn. 29 lipca 2002 r.
+        Ze zm. )
     </string>
 
-    <string name="studyTopic1Text1">Ustawa z  dnia 21 grudnia  2000 r.  o Dozorze Technicznym ( Dz. U. nr 122,poz 1321 ze zm. )
-        Art. 1
-        Ustawa określa zasady, zakres i formy wykonywania dozoru technicznego oraz jednostki właściwe  do jego wykonywania.
-        Art. 2 ust. 1
-        Dozorem Technicznym są określone ustawą działania zmierzające do zapewnienia bezpiecznego funkcjonowania urządzeń technicznych.
+    <string name="studyTopic1Text4">
+        Par 1. Dozorowi technicznemu podlegają następujące rodzaje urządzeń technicznych:
     </string>
+
+    <string name="studyTopic1Text4..1">
+    6) Maszyny służące do przemieszczania osób lub ładunków w ograniczonym zasięgu:
+    </string>
+
+    <string name="studyTopic1Text4.1">
+    - Wciągarki i wciągniki>
+    </string>
+
+    <string name="studyTopic1Text4.2">
+    - Suwnice
+    </string>
+
+    <string name="studyTopic1Text4.3">
+    - Żurawie
+    </string>
+
+    <string name="studyTopic1Text4.4">
+    - Wózki  jezdniowe  z  napędem  silnikowym w tym specjalizowane
+    </string>
+
+    <string name="studyTopic1Text4.5">
+    - Podesty ruchome
+    </string>
+
+    <string name="studyTopic1Text4.6">
+    - Dźwigi towarowo osobowe
+    </string>
+
+    <string name="studyTopic1Text4.7">
+    - Schody i chodniki ruchome
+    </string>
+
+    <string name="studyTopic1Text4.8">
+     - Urządzenia dla niepełnosprawnych.
+    </string>
+
+    <string name="studyTopic1Text5">
+        Art. 14 ust.1
+        Urządzenia techniczne objęte dozorem technicznym, z wyjątkiem urządzeń, o których mowa w art. 15 ust 1 ,mogą być eksploatowane tylko na podstawie decyzji zezwalającej na ich eksploatację ,wydanej przez organ właściwej jednostki dozoru technicznego.
+        Art. 22 ust.2
+        Osoby wykonujące czynności spawania , zgrzewania, lutowania oraz przeróbka plastyczną i obróbki cieplną w toku wytwarzania , napraw i modernizacji urządzeń technicznych oraz wytwarzania elementów stosowanych do wytwarzania , naprawy lub modernizacji tych urządzeń obowiązane są posiadać zaświadczenia kwalifikacyjne potwierdzające umiejętności praktycznego wykonywania tych czynności oraz znajomości warunków technicznych dozoru technicznego, norm i przepisów prawnych w tym zakresie.
+    </string>
+
+    <string name="studytopic1Text6">
+        Naprawę , wymianę oraz przeglądy okresowe może dokonać osoba posiadająca uprawnienia wydane przez Urząd Dozoru Technicznego do wykonywania konserwacji podestów ruchomych przejezdnych wolnobieżnych, przewoźnych.
+        Osoba posiadająca uprawnienia do obsługi podestów ruchomych przejezdnych wolnobieżnych i przewoźnych dokonuje tylko obsługi codziennej przed rozpoczęciem pracy i po jej zakończeniu
+    </string>
+
+    <string name="studyTopic1Text7">
+        W Polsce istnieją trzy Dozory Techniczne
+    </string>
+
+    <string name="studyTopic1Text7.1">
+        - Urząd Dozoru Technicznego
+    </string>
+
+    <string name="studyTopic1Text7.2">
+        - Transportowy Dozór Techniczny
+    </string>
+
+    <string name="studyTopic1Text7.3">
+        - Wojskowy Dozór Techniczny
+    </string>
+
+    <string name="studyTopic1Text8">
+        Dla urządzeń transportu bliskiego są określone formy Dozoru Technicznego:
+    </string>
+
+    <string name="studyTopic1Text8.1">
+        	Pełny
+    </string>
+
+    <string name="studyTopic1Text8.2">
+         	Ograniczony
+    </string>
+
+    <string name="studyTopic1Text8.3">
+         	Uproszczony
+    </string>
+
+    <string name="studyTopic1Text8.4">
+        Przeglądy konserwacyjne
+    </string>
+
+    <string name="studyTopic1Text8.5">
+        Siła wiatru
+    </string>
+
 </resources>
