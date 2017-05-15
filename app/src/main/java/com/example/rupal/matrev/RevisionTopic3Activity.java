@@ -39,7 +39,8 @@ public class RevisionTopic3Activity extends AppCompatActivity{
         layouts = new int[]{
                 R.layout.activity_revision3_slide1,
                 R.layout.activity_revision3_slide2,
-                R.layout.activity_revision3_slide3};
+                R.layout.activity_revision3_slide3,
+                R.layout.activity_revision3_slide4};
 
         // adding bottom dots
         addBottomDots(0);

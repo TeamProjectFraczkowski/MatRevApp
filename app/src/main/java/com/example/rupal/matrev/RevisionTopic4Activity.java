@@ -37,8 +37,7 @@ public class RevisionTopic4Activity extends AppCompatActivity{
         dotsLayout = (LinearLayout) findViewById(R.id.layoutDots);
 
         layouts = new int[]{
-                R.layout.activity_revision_slide1,
-                R.layout.activity_revision_slide2};
+                R.layout.activity_revision4_slide1};
 
         // adding bottom dots
         addBottomDots(0);

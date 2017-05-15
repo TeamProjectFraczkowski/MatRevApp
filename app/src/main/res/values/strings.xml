@@ -43,7 +43,7 @@ Może być podany udźwig  np. 210 kg MAX  ( 2 osoby + 50 kg narzędzia, materia
     </string>
     <string name="wskazowka">Wskazówka</string>
     <string name="wskazowka2">Przy rozłożonym urządzeniu czujnik przechyłu wysyła akustyczny sygnał dźwiękowy tak długo jak przechylenie przekracza dopuszczalną wartość graniczną. Operator tym samym zostaje poinformowany, że nie jest możliwe rozłożenie elementów wykonawczych urządzenia</string>
-    <string name="niebezpieczenstwoPrzechylu">NIebiezpieczeństwo przechyłu i wywrócenia</string>
+    <string name="niebezpieczenstwoPrzechylu">Niebiezpieczeństwo przechyłu i wywrócenia</string>
     <string name="niebezpieczenstwoPrzechylu2">W następujących przypadkach mamy do czynienia z wysokim ryzykiem przechyłu i wywrócenia:</string>
     <string name="niebezpieczenstwoPrzechylu3">
         - nagłe użycie układu, sterowania\n
@@ -53,4 +53,11 @@ Może być podany udźwig  np. 210 kg MAX  ( 2 osoby + 50 kg narzędzia, materia
         - napotkanie przeszkody na ziemi bądź na wysokości\n
         - praca na platformach, nawierzchniach drogowych itp.\n
     </string>
+    <string name="uwaga">Uwaga</string>
+    <string name="uwaga2">Należy uwzględnić odpowiednią drogę hamowania: 3 metry przy dużej prędkości,1 metr przy małej prędkości. Nie należy wyłączać lub ręcznie przełączać żadnych podzespołów związanych w jakikolwiek sposób z bezpieczeństwem lub stabilnością urządzania.</string>
+    <string name="uwaga3">Nie należy transportować ani umieszczać na urządzeniu żadnych ładunków w sposób niezgodny z zasadami bezpieczeństwa.</string>
+    <string name="uwaga4">Nie wolno dotykać platformą roboczą żadnych znajdujących się w pobliżu konstrukcji.</string>
+    <string name="sily">Siły dynamiczne</string>
+    <string name="wiatr">Wiatr</string>
+    <string name="wiatr2">W przypadku prędkości wiatru przekraczającej 12,5 m/s  ( 6 w skali Beauforta ) lub gdy instrukcja użytkowania podaje mniejszą prędkość należy przerwać wszystkie prace na platformie roboczej, a platformę sprowadzić w pozycje postoju.  Dla oszacowania prędkości wiatru można się posłużyć danymi podanymi w tabeli poniżej.</string>
 </resources>
