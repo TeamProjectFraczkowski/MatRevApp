@@ -21,4 +21,15 @@ Może być podany udźwig  np. 210 kg MAX  ( 2 osoby + 50 kg narzędzia, materia
 2 osoby x 80 kg  = 160 kg + 50 kg= 210 kg.</string>
     <string name="udzwigDefinition2">Na podeście przy wysuniętym pomoście ( balkonie ) może przebywać tylko  1  osoba ( chyba że instrukcja obsługi wydana przez producenta mówi inaczej ).</string>
     <string name="udzwigDefinition3">Pamiętaj, że nie wolno przeciążać podestu. Producent urządzenia w instrukcji obsługi określa gdzie urządzeniem można pracować, na jakiej wysokości  i o ilości osób mogących przebywać na urządzeniu.</string>
+    <string name="statecznosc">Stateczność</string>
+    <string name="statecznoscDefinition">Stateczność podestu jest to zdolność konstrukcji podestu ruchomego przejezdnego do zachowania równowagi trwałej. </string>
+    <string name="statecznoscDefinition2">Na stateczność mają wpływ:</string>
+    <string name="statecznoscDefinition3">
+        - niekorzystne działanie siły wiatru\n
+        - podłoże\n
+        - działanie sił dynamicznych\n
+        - siły bezwładności, które występują przy zmianie prędkości ruchów roboczych platformy tj. prędkości ruchów — czyli rozruchu i hamowania\n
+        - rozruch i hamowanie mechanizmów obrotu
+    </string>
+    <string name="statecznoscDefinition4">Należy pamiętać, że w każdym przypadku moment ustalający ( stabilizujący ) powinien być większy od momentu wywracającego.</string>
 </resources>
