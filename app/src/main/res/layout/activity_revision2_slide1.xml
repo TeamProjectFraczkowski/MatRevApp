@@ -4,16 +4,6 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:layout_marginBottom="@dimen/activity_horizontal_margin"
-        android:layout_marginLeft="@dimen/activity_vertical_margin"
-        android:layout_marginRight="@dimen/activity_vertical_margin"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        app:srcCompat="@drawable/udzwig768" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -31,7 +21,7 @@
                 android:layout_marginLeft="@dimen/activity_vertical_margin"
                 android:layout_marginRight="@dimen/activity_vertical_margin"
                 android:layout_marginTop="@dimen/activity_horizontal_margin"
-                android:text="@string/udzwig"
+                android:text="@string/statecznosc"
                 android:textColor="@color/darkBlue"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -43,7 +33,37 @@
                 android:layout_marginBottom="@dimen/activity_horizontal_margin"
                 android:layout_marginLeft="@dimen/activity_vertical_margin"
                 android:layout_marginRight="@dimen/activity_vertical_margin"
-                android:text="@string/udzwigDefinition"
+                android:text="@string/statecznoscDefinition"
+                android:textColor="@color/darkBlue" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:text="@string/statecznoscDefinition2"
+                android:textColor="@color/darkBlue" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:text="@string/statecznoscDefinition3"
+                android:textColor="@color/darkBlue" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:text="@string/statecznoscDefinition4"
                 android:textColor="@color/darkBlue" />
 
         </LinearLayout>

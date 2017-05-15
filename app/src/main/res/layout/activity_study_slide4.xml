@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -15,122 +13,104 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView23"
+                android:id="@+id/textView52"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/study12"
+                android:text="@string/studyTopic1Text7"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView39"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:text="@string/studyTopic1Text1" />
-
-            <TextView
-                android:id="@+id/textView38"
+                android:id="@+id/textView56"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/study13"
+                android:text="@string/studyTopic1Text7.1" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/studyTopic1Text7.2" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/studyTopic1Text7.3" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/studyTopic1Text8" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/studyTopic1Text8.1"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView35"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:text="@string/study14" />
-
-            <TextView
-                android:id="@+id/textView36"
+                android:id="@+id/textView55"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/studyTopic1Text4" />
+                android:text="@string/studyTopic1Text8.2" />
 
             <TextView
-                android:id="@+id/textView37"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:text="@string/studyTopic1Text4..1" />
-
-            <TextView
-                android:id="@+id/textView24"
+                android:id="@+id/textView54"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/studyTopic1Text4.1" />
+                android:text="@string/studyTopic1Text8.3" />
 
             <TextView
-                android:id="@+id/textView34"
+                android:id="@+id/textView57"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:text="@string/studyTopic1Text4.2" />
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/studyTopic1Text8.4" />
 
             <TextView
-                android:id="@+id/textView29"
+                android:id="@+id/textView53"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:text="@string/studyTopic1Text4.3" />
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/studyTopic1Text8.5" />
 
-            <TextView
-                android:id="@+id/textView30"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:text="@string/studyTopic1Text4.4" />
-
-            <TextView
-                android:id="@+id/textView40"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:text="@string/studyTopic1Text4.5" />
-
-            <TextView
-                android:id="@+id/textView31"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:text="@string/studyTopic1Text4.6" />
-
-            <TextView
-                android:id="@+id/textView32"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:text="@string/studyTopic1Text4.7" />
-
-            <TextView
-                android:id="@+id/textView33"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:text="@string/studyTopic1Text4.8" />
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="Następny Temat"
+                android:onClick="goToStudyTopic2"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

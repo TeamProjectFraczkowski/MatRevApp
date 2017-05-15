@@ -5,20 +5,43 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:layout_marginTop="15dp"
-        app:srcCompat="@drawable/pandemonium" />
+        android:layout_height="195dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        app:srcCompat="@drawable/udzwig_2_768" />
 
-    <TextView
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis cursus ligula. Nam volutpat massa id leo aliquet, et finibus dui consequat. Maecenas at lorem non ipsum ultricies convallis nec at augue. Maecenas dolor ipsum, sodales sit amet erat eget, blandit dapibus est. Etiam molestie, magna nec iaculis rutrum, leo felis egestas nulla, eget hendrerit sapien nunc a eros. Nunc consequat rutrum mi, non pulvinar quam tempor quis. Phasellus mollis vestibulum dolor, sit amet scelerisque elit ultrices lacinia. Phasellus at augue tempor, porta libero in, vulputate orci. Fusce venenatis dolor vel metus cursus tempus."
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:textColor="@color/darkBlue"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp" />
+        android:layout_height="match_parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:text="@string/udzwigDefinition2"
+                android:textColor="@color/darkBlue" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:text="@string/udzwigDefinition3"
+                android:textColor="@color/darkBlue" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
