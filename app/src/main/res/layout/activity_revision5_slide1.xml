@@ -36,52 +36,70 @@
                 android:textColor="@color/darkBlue" />
 
             <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin">
 
                 <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:weightSum="12">
 
                     <TextView
                         android:id="@+id/textView27"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:padding="2dp"
+                        android:text="Skala Beauforta"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView26"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:padding="2dp"
+                        android:text="Określenie wiatru"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView25"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:layout_weight="7"
+                        android:padding="2dp"
+                        android:text="Zjawiska wywoływane określonym wiatrem"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView24"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:padding="2dp"
+                        android:text="Prędkość m/s"
+                        android:textStyle="bold" />
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent" />
 
                 <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <TableRow
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent" />
             </TableLayout>
 
