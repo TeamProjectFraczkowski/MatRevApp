@@ -7,7 +7,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import static com.example.rupal.matrev.R.id.textView10;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 /**
  * Created by rupal on 08/05/2017.
@@ -18,11 +22,28 @@ public class LoginActivity extends AppCompatActivity
     private String password = "Ten23";
     private EditText et;
     private Button b;
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference myRef = database.getReference();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        // Read from the database
+        myRef.child("password").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                // This method is called once with the initial value and again
+                // whenever data at this location is updated.
+                password = dataSnapshot.getValue(String.class);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+
+            }
+        });
 
         et = (EditText) findViewById(R.id.editText);
         b = (Button) findViewById(R.id.button);
@@ -44,35 +65,6 @@ public class LoginActivity extends AppCompatActivity
         else
             return false;
     }
-//        int length = 0;
-//        int digit = 0;
-//        int lower = 0;
-//        int upper = 0;
-//
-//        if(input.length() > 6){
-//            length = 1;
-//            for(int i=0 ; i<input.length() ; i++){
-//                if(isupper(input[i]))
-//                    upper = 1;
-//                if(islower(input[i]))
-//                    lower = 1;
-//                if(isdigit(input[i]))
-//                    digit = 1;
-//            }
-//        }
-//        return true;
-//    }
-//    int main() {
-//        String password;
-//
-//        if (checkPassword(password)){
-//            Intent loginActivity = new Intent(this, MainActivity.class);
-//        }
-//        else{
-//            Intent loginActivity = new Intent(this, LoginActivity.class);
-//        }
-//        return 0;
-//    }
 
     /// Switch activity to the study Screen
     public void onLoginButtonClick(View view){
