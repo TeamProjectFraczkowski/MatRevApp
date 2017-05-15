@@ -14,4 +14,11 @@
         Art. 2 ust. 1
         Dozorem Technicznym są określone ustawą działania zmierzające do zapewnienia bezpiecznego funkcjonowania urządzeń technicznych.
     </string>
+
+    <string name="udzwig">Udźwig</string>
+    <string name="udzwigDefinition">Udźwig jest to dopuszczalne obciążenie, określone przez wytwórcę, ( producenta ) jakie może przenieść platforma robocza podestu ruchomego przejezdnego podczas normalnej pracy.
+Może być podany udźwig  np. 210 kg MAX  ( 2 osoby + 50 kg narzędzia, materiału ). Przyjmujemy że osoba waży 80 kg, jeśli osoba waży więcej niż 80 kg pomniejszamy wagę narzędzi, materiałów.
+2 osoby x 80 kg  = 160 kg + 50 kg= 210 kg.</string>
+    <string name="udzwigDefinition2">Na podeście przy wysuniętym pomoście ( balkonie ) może przebywać tylko  1  osoba ( chyba że instrukcja obsługi wydana przez producenta mówi inaczej ).</string>
+    <string name="udzwigDefinition3">Pamiętaj, że nie wolno przeciążać podestu. Producent urządzenia w instrukcji obsługi określa gdzie urządzeniem można pracować, na jakiej wysokości  i o ilości osób mogących przebywać na urządzeniu.</string>
 </resources>
