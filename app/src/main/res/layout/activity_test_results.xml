@@ -17,13 +17,6 @@
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp" />
 
-    <Button
-        android:text="Home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button18"
-        android:onClick="goToMainScreen" />
-
     <TextView
         android:id="@+id/pointsNumber"
         android:layout_width="match_parent"
@@ -35,5 +28,12 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToMainScreen"
+        android:text="Home" />
 
 </LinearLayout>

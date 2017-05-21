@@ -26,4 +26,6 @@
         android:layout_height="wrap_content"
         android:onClick="onReturnButtonClick"
         android:text="Wróć do Menu" />
+
+
 </LinearLayout>
