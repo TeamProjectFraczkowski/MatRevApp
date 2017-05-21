@@ -56,6 +56,14 @@
                 android:text="@string/uwaga4"
                 android:textColor="@color/darkBlue" />
 
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="Następny Temat"
+                android:onClick="goToRevision4"/>
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

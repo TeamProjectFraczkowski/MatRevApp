@@ -1,6 +1,7 @@
 package com.example.rupal.matrev;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -37,7 +38,8 @@ public class RevisionTopic5Activity extends AppCompatActivity{
         dotsLayout = (LinearLayout) findViewById(R.id.layoutDots);
 
         layouts = new int[]{
-                R.layout.activity_revision5_slide1};
+                R.layout.activity_revision5_slide1,
+                R.layout.activity_revision5_slide_last};
 
         // adding bottom dots
         addBottomDots(0);
@@ -81,6 +83,11 @@ public class RevisionTopic5Activity extends AppCompatActivity{
 
     private int getItem(int i) {
         return viewPager.getCurrentItem() + i;
+    }
+
+    public void goToRevision6(View view) {
+        Intent gotoRev6act = new Intent(this, RevisionTopic6Activity.class);
+        startActivity(gotoRev6act);
     }
 
     public class ViewPagerAdapter extends PagerAdapter {

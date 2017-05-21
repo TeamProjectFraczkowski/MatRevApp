@@ -238,4 +238,13 @@
     <string name="sily">Siły dynamiczne</string>
     <string name="wiatr">Wiatr</string>
     <string name="wiatr2">W przypadku prędkości wiatru przekraczającej 12,5 m/s  ( 6 w skali Beauforta ) lub gdy instrukcja użytkowania podaje mniejszą prędkość należy przerwać wszystkie prace na platformie roboczej, a platformę sprowadzić w pozycje postoju.  Dla oszacowania prędkości wiatru można się posłużyć danymi podanymi w tabeli poniżej.</string>
+
+
+    <string name="help1">MatRev is designed in order to help students be able to access the study material and revise it on the same platform.</string>
+    <string name="help2">To access the study material, click "Study" from the main menu and browse through the study topics to study from.</string>
+    <string name="help3">To revise the material, click "Revision" from the main menu and browse through the revision topics to revise from.</string>
+    <string name="help4">You can take a test in order to check your knowledge from the studied topics. There are multiple choice questions you have to choose an asnwer for and at the end of the test, your result will be calculated and displayed.</string>
+    <string name="help5">The test can be abandoned at any given moment during the test.</string>
+    <string name="help6">There is no time-limit for taking the test, but once abandoned, it will not be resumed! You will have to restart the test.</string>
+
 </resources>

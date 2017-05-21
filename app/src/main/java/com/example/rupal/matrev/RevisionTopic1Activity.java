@@ -1,6 +1,7 @@
 package com.example.rupal.matrev;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -82,6 +83,11 @@ public class RevisionTopic1Activity extends AppCompatActivity{
 
     private int getItem(int i) {
         return viewPager.getCurrentItem() + i;
+    }
+
+    public void goToRevision2(View view) {
+        Intent gotoTopic2act = new Intent(this, RevisionTopic2Activity.class);
+        startActivity(gotoTopic2act);
     }
 
     public class ViewPagerAdapter extends PagerAdapter {
