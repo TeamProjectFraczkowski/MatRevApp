@@ -68,12 +68,21 @@ public class TestActivity extends AppCompatActivity {
         rb2.setText(s2);
         rb3.setText(s3);
         rb4.setText(s4);
+        uncheckRadioButtons();
     }
 
     private void goToResults()
     {
         Intent resultActivity = new Intent(this, ResultActivity.class);
         startActivity(resultActivity);
+    }
+
+    private void uncheckRadioButtons()
+    {
+        rb.setChecked(false);
+        rb2.setChecked(false);
+        rb3.setChecked(false);
+        rb4.setChecked(false);
     }
 
 
