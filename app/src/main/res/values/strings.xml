@@ -182,4 +182,7 @@
     <string name="help5">The test can be abandoned at any given moment during the test.</string>
     <string name="help6">There is no time-limit for taking the test, but once abandoned, it will not be resumed! You will have to restart the test.</string>
 
+    <string name="login">Pisz hasło, które otrzymałałeś podczas kursu: </string>
+
+
 </resources>

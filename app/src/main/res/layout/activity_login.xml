@@ -58,6 +58,7 @@
         android:layout_alignStart="@+id/textView7"
         android:layout_below="@+id/textView7"
         android:layout_marginTop="48dp"
-        android:text="zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzuguysarelikebesssssssssssssssssssssssssssssssssssssssssss" />
+        android:text="@string/login"
+        android:textSize="18sp" />
 
 </RelativeLayout>
