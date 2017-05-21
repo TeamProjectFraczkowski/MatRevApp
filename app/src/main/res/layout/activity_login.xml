@@ -17,13 +17,15 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/darkBlue"
-        android:text="Login"
-        android:textColor="@color/red"
-        android:layout_marginBottom="83dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="83dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@color/darkBlue"
+        android:text="Login"
+        android:textColor="@color/red" />
 
     <EditText
         android:id="@+id/editText"
