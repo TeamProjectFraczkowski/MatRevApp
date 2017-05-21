@@ -72,6 +72,16 @@
     <string name="q10a2">Q 10 Answer 2</string>
     <string name="q10a3">Q 10 Answer 3</string>
     <string name="q10a4">Q 10 Answer 4</string>
+    <string name="qRA1">1</string>
+    <string name="qRA2">2</string>
+    <string name="qRA3">3</string>
+    <string name="qRA4">3</string>
+    <string name="qRA5">2</string>
+    <string name="qRA6">2</string>
+    <string name="qRA7">4</string>
+    <string name="qRA8">1</string>
+    <string name="qRA9">1</string>
+    <string name="qRA10">3</string>
 
     <string name="study1">Ustawa z  dnia 21 grudnia  2000 r.  o Dozorze Technicznym ( Dz. U. nr 122,poz 1321 ze zm. )</string>
     <string name="study2">Art. 1</string>

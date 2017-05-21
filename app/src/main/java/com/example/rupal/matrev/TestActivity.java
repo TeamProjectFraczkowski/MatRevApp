@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +17,7 @@ public class TestActivity extends AppCompatActivity {
     protected RadioButton rb,rb2,rb3,rb4;
     private TextView tv;
     private Button b4;
-    private int counter = 1;
+    private int counter = 1, points = 0;
 
     List<Question> questions = new ArrayList<Question>();
 
@@ -40,7 +41,12 @@ public class TestActivity extends AppCompatActivity {
 
     public void goToNextQuestion(View view)
     {
+        int answer = Integer.parseInt(getStringResourceByName(("qRA" + counter)));
+
+        if (isAnswerRight(answer))
+            points++;
         counter++;
+
         if(counter >= 10)
         {
             b4 = (Button) findViewById(R.id.button4);
@@ -52,6 +58,7 @@ public class TestActivity extends AppCompatActivity {
                 }
             });
         }
+
         setRadioButtons();
         String q0 = "q" + counter;
         String s0 = getStringResourceByName(q0);
@@ -63,6 +70,12 @@ public class TestActivity extends AppCompatActivity {
         String s3 = getStringResourceByName(q3);
         String q4 = "q" + counter + "a1";
         String s4 = getStringResourceByName(q4);
+
+
+        //TextView tw = (TextView) findViewById(R.id.pointsNumber);
+        //tw.setText(points);
+
+
         tv.setText(s0);
         rb.setText(s1);
         rb2.setText(s2);
@@ -74,6 +87,8 @@ public class TestActivity extends AppCompatActivity {
     private void goToResults()
     {
         Intent resultActivity = new Intent(this, ResultActivity.class);
+        String pts = "Punkty: " + points;
+        resultActivity.putExtra("points", pts);
         startActivity(resultActivity);
     }
 
@@ -180,18 +195,16 @@ public class TestActivity extends AppCompatActivity {
 
     // TODO: CHECK AFTERWARDS IF THIS METHOD WORKS RIGHT
     // Returns true if answer on this page is right
-    private boolean isAnswerRight(int questionId){
+    private boolean isAnswerRight(int rightId){
 
-        int right = questions.get(questionId).rightId;
-
-        switch (right) {
-            case 0: if (rb.isChecked()) return true;
+        switch (rightId) {
+            case 1: if (rb.isChecked()) return true;
                 break;
-            case 1: if (rb2.isChecked()) return true;
+            case 2: if (rb2.isChecked()) return true;
                 break;
-            case 2: if (rb3.isChecked()) return true;
+            case 3: if (rb3.isChecked()) return true;
                 break;
-            case 3: if (rb4.isChecked()) return true;
+            case 4: if (rb4.isChecked()) return true;
                 break;
             default: return false;
         }

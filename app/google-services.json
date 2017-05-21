@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "535238254846",
+    "firebase_url": "https://matrevapp-1af25.firebaseio.com",
+    "project_id": "matrevapp-1af25",
+    "storage_bucket": "matrevapp-1af25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535238254846:android:b8788c81b9372587",
+        "android_client_info": {
+          "package_name": "com.example.rupal.matrev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535238254846-6eq2cg571kkp4afjt5iiu8otg3fulg39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rupal.matrev",
+            "certificate_hash": "618cbc8fafffa22c2cb7f1add69e4e9537001a79"
+          }
+        },
+        {
+          "client_id": "535238254846-gssl01a9inigc57ivhhbe2pb1oi13tl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rupal.matrev",
+            "certificate_hash": "6d911d05113ec4c5d3656ccb4fc6fbd01083bead"
+          }
+        },
+        {
+          "client_id": "535238254846-kh630dd5mmv5q70kb4bbehc8ll6gs9hi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rupal.matrev",
+            "certificate_hash": "81f6ce00359917155a85eb59dcfc5e9b47d4d47d"
+          }
+        },
+        {
+          "client_id": "535238254846-87khhq9ate4olbv8lcu43pg04eaejhaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rupal.matrev",
+            "certificate_hash": "bad83307b19f973d3d49ab83fa1eb3abe9faa9ec"
+          }
+        },
+        {
+          "client_id": "535238254846-fv0a05h83v9e91r362a58mqfcu15hevg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFQ2ymH_mP_2_ntsOwtSzqlirro6slTTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535238254846-fv0a05h83v9e91r362a58mqfcu15hevg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
