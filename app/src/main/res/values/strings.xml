@@ -8,6 +8,71 @@
         leo felis egestas nulla, eget hendrerit sapien nunc a eros.
     </string>
 
+    <string name="nextQuestion">Następne pytanie</string>
+    <string name="finishTest">Zakończ test</string>
+
+    <string name="q1">Question 1</string>
+    <string name="q2">Question 2</string>
+    <string name="q3">Question 3</string>
+    <string name="q4">Question 4</string>
+    <string name="q5">Question 5</string>
+    <string name="q6">Question 6</string>
+    <string name="q7">Question 7</string>
+    <string name="q8">Question 8</string>
+    <string name="q9">Question 9</string>
+    <string name="q10">Question 10</string>
+
+
+    <string name="q1a1">Q 1 Answer 1</string>
+    <string name="q1a2">Q 1 Answer 2</string>
+    <string name="q1a3">Q 1 Answer 3</string>
+    <string name="q1a4">Q 1 Answer 4</string>
+
+    <string name="q2a1">Q 2 Answer 1</string>
+    <string name="q2a2">Q 2 Answer 2</string>
+    <string name="q2a3">Q 2 Answer 3</string>
+    <string name="q2a4">Q 2 Answer 4</string>
+
+    <string name="q3a1">Q 3 Answer 1</string>
+    <string name="q3a2">Q 3 Answer 2</string>
+    <string name="q3a3">Q 3 Answer 3</string>
+    <string name="q3a4">Q 3 Answer 4</string>
+
+    <string name="q4a1">Q 4 Answer 1</string>
+    <string name="q4a2">Q 4 Answer 2</string>
+    <string name="q4a3">Q 4 Answer 3</string>
+    <string name="q4a4">Q 4 Answer 4</string>
+
+    <string name="q5a1">Q 5 Answer 1</string>
+    <string name="q5a2">Q 5 Answer 2</string>
+    <string name="q5a3">Q 5 Answer 3</string>
+    <string name="q5a4">Q 5 Answer 4</string>
+
+    <string name="q6a1">Q 6 Answer 1</string>
+    <string name="q6a2">Q 6 Answer 2</string>
+    <string name="q6a3">Q 6 Answer 3</string>
+    <string name="q6a4">Q 6 Answer 4</string>
+
+    <string name="q7a1">Q 7 Answer 1</string>
+    <string name="q7a2">Q 7 Answer 2</string>
+    <string name="q7a3">Q 7 Answer 3</string>
+    <string name="q7a4">Q 7 Answer 4</string>
+
+    <string name="q8a1">Q 8 Answer 1</string>
+    <string name="q8a2">Q 8 Answer 2</string>
+    <string name="q8a3">Q 8 Answer 3</string>
+    <string name="q8a4">Q 8 Answer 4</string>
+
+    <string name="q9a1">Q 9 Answer 1</string>
+    <string name="q9a2">Q 9 Answer 2</string>
+    <string name="q9a3">Q 9 Answer 3</string>
+    <string name="q9a4">Q 9 Answer 4</string>
+
+    <string name="q10a1">Q 10 Answer 1</string>
+    <string name="q10a2">Q 10 Answer 2</string>
+    <string name="q10a3">Q 10 Answer 3</string>
+    <string name="q10a4">Q 10 Answer 4</string>
+
     <string name="study1">Ustawa z  dnia 21 grudnia  2000 r.  o Dozorze Technicznym ( Dz. U. nr 122,poz 1321 ze zm. )</string>
     <string name="study2">Art. 1</string>
     <string name="study3">Ustawa określa zasady, zakres i formy wykonywania dozoru technicznego oraz jednostki właściwe  do jego wykonywania. </string>

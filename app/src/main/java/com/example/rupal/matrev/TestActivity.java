@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RadioButton;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +14,9 @@ import java.util.List;
 public class TestActivity extends AppCompatActivity {
 
     protected RadioButton rb,rb2,rb3,rb4;
+    private TextView tv;
+    private Button b4;
+    private int counter = 1;
 
     List<Question> questions = new ArrayList<Question>();
 
@@ -20,6 +25,7 @@ public class TestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
         setRadioButtons();
+        tv = (TextView) findViewById(R.id.textView5);
 
 
         questions.add(new Question("", "", "", "", 2));
@@ -32,17 +38,44 @@ public class TestActivity extends AppCompatActivity {
     public void onBackPressed() {
     }
 
-    public void goToQuestion2(View view)
+    public void goToNextQuestion(View view)
     {
-        setContentView(R.layout.activity_test2);
+        counter++;
+        if(counter >= 10)
+        {
+            b4 = (Button) findViewById(R.id.button4);
+            b4.setText(R.string.finishTest);
+            b4.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    goToResults();
+                }
+            });
+        }
         setRadioButtons();
+        String q0 = "q" + counter;
+        String s0 = getStringResourceByName(q0);
+        String q1 = "q" + counter + "a1";
+        String s1 = getStringResourceByName(q1);
+        String q2 = "q" + counter + "a1";
+        String s2 = getStringResourceByName(q2);
+        String q3 = "q" + counter + "a1";
+        String s3 = getStringResourceByName(q3);
+        String q4 = "q" + counter + "a1";
+        String s4 = getStringResourceByName(q4);
+        tv.setText(s0);
+        rb.setText(s1);
+        rb2.setText(s2);
+        rb3.setText(s3);
+        rb4.setText(s4);
     }
 
-    public void goToQuestion3(View view)
+    private void goToResults()
     {
-        setContentView(R.layout.activity_test3);
-        setRadioButtons();
+        Intent resultActivity = new Intent(this, ResultActivity.class);
+        startActivity(resultActivity);
     }
+
 
     // Fills rb's every time new activity opens
     private void setRadioButtons(){
@@ -52,7 +85,11 @@ public class TestActivity extends AppCompatActivity {
         rb4 = (RadioButton) findViewById(R.id.radioButton4);
     }
 
-    //DISCUSS
+    private String getStringResourceByName(String aString) {
+        String packageName = getPackageName();
+        int resId = getResources().getIdentifier(aString, "string", packageName);
+        return getString(resId);
+    }
 
     //change the button for it
     public void seeResults(View view){
