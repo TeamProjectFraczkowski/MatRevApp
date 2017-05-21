@@ -29,13 +29,15 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hasło"
-        android:textColor="@color/darkBlue"
-        android:textSize="18sp"
         android:layout_alignBottom="@+id/button"
         android:layout_alignLeft="@+id/textView7"
         android:layout_alignStart="@+id/textView7"
-        android:layout_marginBottom="97dp" />
+        android:layout_marginBottom="97dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="Hasło"
+        android:textColor="@color/darkBlue"
+        android:textSize="18sp" />
 
     <EditText
         android:id="@+id/editText"
