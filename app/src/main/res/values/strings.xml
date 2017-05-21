@@ -240,14 +240,14 @@
     <string name="wiatr2">W przypadku prędkości wiatru przekraczającej 12,5 m/s  ( 6 w skali Beauforta ) lub gdy instrukcja użytkowania podaje mniejszą prędkość należy przerwać wszystkie prace na platformie roboczej, a platformę sprowadzić w pozycje postoju.  Dla oszacowania prędkości wiatru można się posłużyć danymi podanymi w tabeli poniżej.</string>
 
 
-    <string name="help1">MatRev is designed in order to help students be able to access the study material and revise it on the same platform.</string>
-    <string name="help2">To access the study material, click "Study" from the main menu and browse through the study topics to study from.</string>
-    <string name="help3">To revise the material, click "Revision" from the main menu and browse through the revision topics to revise from.</string>
-    <string name="help4">You can take a test in order to check your knowledge from the studied topics. There are multiple choice questions you have to choose an asnwer for and at the end of the test, your result will be calculated and displayed.</string>
-    <string name="help5">The test can be abandoned at any given moment during the test.</string>
-    <string name="help6">There is no time-limit for taking the test, but once abandoned, it will not be resumed! You will have to restart the test.</string>
+    <string name="help1">MatRev powstał aby zapewnić kursantom możliwość dostępu do materiałów kursu i ich powtórki na platformie Android.</string>
+    <string name="help2">Aby uzyskać dostęp do materiałów kursu, naciśnij przycisk "Nauka" w menu głównym i wybierz temat z następnego menu. Zawartość materiałów przeglądaj przesuwając palcem ekran w lewo.</string>
+    <string name="help3">Aby uzyskać dostęp do materiałów powtókowych, naciśnij przycisk "Powtórka" w menu głównym i wybierz temat z kolejnego menu. Tutaj tak samo jak w "Nauce" możesz przeglądać materiały przesuwając palcem ekran w lewo.</string>
+    <string name="help4">Aplikacja zapewnia również możliwość zrobienia testu sprawdzającego Twoją wiedzę z przedstawionych materiałów. Test zawiera dziesięć pytań, z czego na każde jest tylko jedna poprawna odpowiedź. Po zakończeniu testu, na ekranie zostanie wyświetlony Twój wynik.</string>
+    <string name="help5">MatRev zapewnia możliwość porzucenia testu w dowolnym jego momencie. Aby to zrobić naciśnij przycisk "Porzuć test".</string>
+    <string name="help6">Test nie ma limitu czasowego, ale jeżeli zostanie porzucony, nie ma już możliwości powrócić do pytania, na którym skończyłeś. Można wtedy jedynie rozpocząć test od początku.</string>
 
-    <string name="login">Pisz hasło, które otrzymałałeś podczas kursu: </string>
+    <string name="login">Wpisz hasło, które otrzymałałeś podczas kursu: </string>
 
 
 </resources>
