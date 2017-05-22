@@ -57,7 +57,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:onClick="radio_clicked"
-        android:text="@string/q1a1" />
+        android:text="@string/q1a3" />
 
     <RadioButton
         android:id="@+id/radioButton4"

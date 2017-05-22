@@ -64,11 +64,11 @@ public class TestActivity extends AppCompatActivity {
         String s0 = getStringResourceByName(q0);
         String q1 = "q" + counter + "a1";
         String s1 = getStringResourceByName(q1);
-        String q2 = "q" + counter + "a1";
+        String q2 = "q" + counter + "a2";
         String s2 = getStringResourceByName(q2);
-        String q3 = "q" + counter + "a1";
+        String q3 = "q" + counter + "a3";
         String s3 = getStringResourceByName(q3);
-        String q4 = "q" + counter + "a1";
+        String q4 = "q" + counter + "a4";
         String s4 = getStringResourceByName(q4);
 
 
