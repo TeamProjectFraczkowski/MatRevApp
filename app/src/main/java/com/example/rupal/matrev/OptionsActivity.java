@@ -16,7 +16,10 @@ public class OptionsActivity extends BaseActivity
 
     public void onReturnButtonClick(View view)
     {
-        super.onBackPressed();
+        //super.onBackPressed();
+        Intent goToMainScreenActivity = new Intent(this, MainActivity.class);
+        goToMainScreenActivity.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(goToMainScreenActivity);
     }
 
     public void changeTheme(View view)
