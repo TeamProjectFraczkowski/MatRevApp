@@ -1,21 +1,61 @@
 <resources>
 
-    <!-- Base application theme. -->
+    <!-- DEFAULT theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="backgroundColor">@color/white</item>
 
+        <!-- Main Study button and all inner study topic buttons -->
+        <item name="StudyButton">@color/darkBlue</item>
+        <item name="StudyButtonText">@color/red</item>
+
+        <!-- Main Revision Button -->
+        <item name="RevisionButton">@color/blue</item>
+        <item name="RevisionButtonText">@color/darkBlue</item>
+
+        <!-- All inner Revision topic buttons -->
+        <item name="RevisionButtonIn">@color/darkBlue</item>
+        <item name="RevisionButtonTextIn">@color/lightBlue</item>
+
+        <!-- Main Test Button -->
+        <item name="TestButton">@color/lightBlue</item>
+        <item name="TestButtonText">@color/darkBlue</item>
+
+        <!-- All the other secondary buttons -->
+        <item name="OtherButtons">@color/gray</item>
+        <item name="OtherButtonsText">@color/darkBlue</item>
     </style>
 
+    <!-- NEW theme. -->
     <style name="NewTheme" parent="Theme.AppCompat.Light">
         <item name="colorPrimary">@color/colorPrimary1</item>
         <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
         <item name="colorAccent">@color/colorAccent1</item>
         <item name="backgroundColor">@color/white</item>
-    </style>
 
+        <!-- Put the new Color Combo here -->
+
+        <!-- Main Study button and all inner study topic buttons -->
+        <item name="StudyButton">@color/beige</item>
+        <item name="StudyButtonText">@color/darkBlue</item>
+
+        <!-- Main Revision Button -->
+        <item name="RevisionButton">@color/beige</item>
+        <item name="RevisionButtonText">@color/darkBlue</item>
+
+        <!-- All inner Revision topic buttons -->
+        <item name="RevisionButtonIn">@color/beige</item>
+        <item name="RevisionButtonTextIn">@color/darkBlue</item>
+
+        <!-- Main Test Button -->
+        <item name="TestButton">@color/beige</item>
+        <item name="TestButtonText">@color/darkBlue</item>
+
+        <!-- All the other secondary buttons -->
+        <item name="OtherButtons">@color/beige</item>
+        <item name="OtherButtonsText">@color/darkBlue</item>
+    </style>
 
 </resources>

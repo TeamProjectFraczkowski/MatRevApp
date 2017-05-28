@@ -33,70 +33,70 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
-                android:background="@color/darkBlue"
+                android:background="?attr/RevisionButtonIn"
                 android:onClick="onTopic1ButtonClick"
                 android:text="Udźwig"
-                android:textColor="@color/lightBlue" />
+                android:textColor="?attr/RevisionButtonTextIn" />
 
             <Button
                 android:id="@+id/button17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
+                android:background="?attr/RevisionButtonIn"
                 android:onClick="onTopic2ButtonClick"
                 android:text="Stateczność"
-                android:textColor="@color/lightBlue" />
+                android:textColor="?attr/RevisionButtonTextIn" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
+                android:background="?attr/RevisionButtonIn"
                 android:onClick="onTopic3ButtonClick"
                 android:text="Przechył"
-                android:textColor="@color/lightBlue" />
+                android:textColor="?attr/RevisionButtonTextIn" />
 
             <Button
                 android:id="@+id/button15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
+                android:background="?attr/RevisionButtonIn"
                 android:onClick="onTopic4ButtonClick"
                 android:text="Siły dynamiczne"
-                android:textColor="@color/lightBlue" />
+                android:textColor="?attr/RevisionButtonTextIn" />
 
             <Button
                 android:id="@+id/button14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
+                android:background="?attr/RevisionButtonIn"
                 android:onClick="onTopic5ButtonClick"
                 android:text="Wiatr"
-                android:textColor="@color/lightBlue" />
+                android:textColor="?attr/RevisionButtonTextIn" />
 
             <Button
                 android:id="@+id/button12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
+                android:background="?attr/RevisionButtonIn"
                 android:onClick="onTopic6ButtonClick"
                 android:text="Linie energoenergetyczne"
-                android:textColor="@color/lightBlue" />
+                android:textColor="?attr/RevisionButtonTextIn" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/darkBlue"
+                android:background="?attr/RevisionButtonIn"
                 android:onClick="onTopic7ButtonClick"
                 android:text="Zabezpieczenia"
-                android:textColor="@color/lightBlue" />
+                android:textColor="?attr/RevisionButtonTextIn" />
 
             <ListView
                 android:layout_width="match_parent"
