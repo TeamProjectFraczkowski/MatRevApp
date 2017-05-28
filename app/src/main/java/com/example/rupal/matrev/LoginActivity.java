@@ -17,7 +17,7 @@ import com.google.firebase.database.ValueEventListener;
  * Created by rupal on 08/05/2017.
  */
 
-public class LoginActivity extends AppCompatActivity
+public class LoginActivity extends BaseActivity
 {
     private String password = "Ten23";
     private EditText et;
@@ -26,7 +26,7 @@ public class LoginActivity extends AppCompatActivity
     DatabaseReference myRef = database.getReference();
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 

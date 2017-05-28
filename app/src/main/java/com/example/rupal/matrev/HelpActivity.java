@@ -8,9 +8,9 @@ import android.view.View;
  * Created by Paulina on 01.05.2017.
  */
 
-public class HelpActivity extends AppCompatActivity {
+public class HelpActivity extends BaseActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
     }

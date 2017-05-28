@@ -81,6 +81,9 @@
         <activity android:name=".RevisionTopic7Activity"
             android:label="Zabezpieczenia">
         </activity>
+        <activity android:name=".BaseActivity"
+            android:label="Theme">
+        </activity>
     </application>
 
 </manifest>

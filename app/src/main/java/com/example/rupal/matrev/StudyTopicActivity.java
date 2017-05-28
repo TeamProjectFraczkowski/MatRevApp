@@ -19,7 +19,7 @@ import android.widget.TextView;
  * Created by Paulina on 01.05.2017.
  */
 
-public class StudyTopicActivity extends AppCompatActivity{
+public class StudyTopicActivity extends BaseActivity{
 
     private ViewPager viewPager;
     private ViewPagerAdapter viewPagerAdapter;

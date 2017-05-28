@@ -12,7 +12,7 @@ import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestActivity extends AppCompatActivity {
+public class TestActivity extends BaseActivity {
 
     protected RadioButton rb,rb2,rb3,rb4;
     private TextView tv;
@@ -22,7 +22,7 @@ public class TestActivity extends AppCompatActivity {
     List<Question> questions = new ArrayList<Question>();
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
         setRadioButtons();

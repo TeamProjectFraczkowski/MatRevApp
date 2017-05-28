@@ -13,6 +13,7 @@
         android:text="Powtórka - Spis Treści"
         android:textAlignment="center"
         android:textColor="@color/darkBlue"
+        android:background="?attr/backgroundColor"
         android:textSize="30sp" />
 
     <ScrollView

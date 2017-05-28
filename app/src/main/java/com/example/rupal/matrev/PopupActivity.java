@@ -9,7 +9,7 @@ import android.view.View;
  * Created by rupal on 14/05/2017.
  */
 
-public class PopupActivity extends AppCompatActivity {
+public class PopupActivity extends BaseActivity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.popup_abandon_confirmation);

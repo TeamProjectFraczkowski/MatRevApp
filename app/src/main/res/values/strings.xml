@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">MatRev</string>
 
+    <string name="prefs_theme_key">theme</string>
+
     <string name="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Nulla quis cursus ligula. Nam volutpat massa id leo aliquet, et finibus dui consequat.
         Maecenas at lorem non ipsum ultricies convallis nec at augue. Maecenas dolor ipsum,

@@ -9,10 +9,10 @@ import android.view.View;
  * Created by Paulina on 01.05.2017.
  */
 
-public class RevisionTopic2Activity extends AppCompatActivity{
+public class RevisionTopic2Activity extends BaseActivity{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_revision2_slide1);
 

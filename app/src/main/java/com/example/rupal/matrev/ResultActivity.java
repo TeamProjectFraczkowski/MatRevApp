@@ -6,10 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class ResultActivity extends AppCompatActivity {
+public class ResultActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_results);
         Intent intent = getIntent();
