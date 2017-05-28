@@ -17,7 +17,7 @@ import com.google.firebase.database.ValueEventListener;
  * Created by rupal on 08/05/2017.
  */
 
-public class LoginActivity extends BaseActivity
+public class LoginActivity extends AppCompatActivity
 {
     private String password = "Ten23";
     private EditText et;
