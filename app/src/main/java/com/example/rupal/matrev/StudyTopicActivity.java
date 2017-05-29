@@ -41,7 +41,8 @@ public class StudyTopicActivity extends BaseActivity{
                 R.layout.activity_study_slide1,
                 R.layout.activity_study_slide2,
                 R.layout.activity_study_slide3,
-                R.layout.activity_study_slide4};
+                R.layout.activity_study_slide4,
+                R.layout.activity_study_slide5};
 
         // adding bottom dots
         addBottomDots(0);
