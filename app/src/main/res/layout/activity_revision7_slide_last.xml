@@ -25,6 +25,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:onClick="goToMainMenu2"
+                android:background="?attr/OtherButtons"
+                android:textColor="?attr/OtherButtonsText"
                 android:text="Wróć do menu" />
         </LinearLayout>
     </ScrollView>

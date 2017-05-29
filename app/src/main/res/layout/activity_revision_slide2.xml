@@ -50,6 +50,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:onClick="goToRevision2"
+                android:background="?attr/OtherButtons"
+                android:textColor="?attr/OtherButtonsText"
                 android:text="Następny Temat" />
         </LinearLayout>
     </ScrollView>

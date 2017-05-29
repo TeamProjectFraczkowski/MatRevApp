@@ -60,6 +60,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:onClick="onReturnButtonClick"
+                android:background="?attr/OtherButtons"
+                android:textColor="?attr/OtherButtonsText"
                 android:text="Wróć do Menu" />
         </LinearLayout>
     </ScrollView>

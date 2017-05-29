@@ -72,6 +72,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="?attr/OtherButtons"
+                android:textColor="?attr/OtherButtonsText"
                 android:text="Następny Temat"
                 android:onClick="goToRevision3"/>
 
