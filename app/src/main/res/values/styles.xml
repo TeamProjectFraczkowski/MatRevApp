@@ -39,23 +39,23 @@
 
         <!-- Main Study button and all inner study topic buttons -->
         <item name="StudyButton">@color/beige</item>
-        <item name="StudyButtonText">@color/darkBlue</item>
+        <item name="StudyButtonText">@color/black</item>
 
         <!-- Main Revision Button -->
         <item name="RevisionButton">@color/beige</item>
-        <item name="RevisionButtonText">@color/darkBlue</item>
+        <item name="RevisionButtonText">@color/black</item>
 
         <!-- All inner Revision topic buttons -->
         <item name="RevisionButtonIn">@color/beige</item>
-        <item name="RevisionButtonTextIn">@color/darkBlue</item>
+        <item name="RevisionButtonTextIn">@color/black</item>
 
         <!-- Main Test Button -->
         <item name="TestButton">@color/beige</item>
-        <item name="TestButtonText">@color/darkBlue</item>
+        <item name="TestButtonText">@color/black</item>
 
         <!-- All the other secondary buttons -->
         <item name="OtherButtons">@color/beige</item>
-        <item name="OtherButtonsText">@color/darkBlue</item>
+        <item name="OtherButtonsText">@color/black</item>
     </style>
 
 </resources>

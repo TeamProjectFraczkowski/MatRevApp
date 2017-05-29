@@ -17,6 +17,8 @@
             android:layout_alignEnd="@+id/textView11"
             android:layout_alignRight="@+id/textView11"
             android:text="Tak"
+            android:background="?attr/OtherButtons"
+            android:textColor="?attr/OtherButtonsText"
             android:onClick="gotoMainScreenAgain"/>
 
         <TextView
@@ -38,6 +40,8 @@
             android:layout_below="@+id/textView11"
             android:layout_marginTop="76dp"
             android:text="Nie"
+            android:background="?attr/OtherButtons"
+            android:textColor="?attr/OtherButtonsText"
             android:onClick="stayThere"/>
     </RelativeLayout>
 

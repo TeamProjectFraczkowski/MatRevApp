@@ -34,13 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="goToMainScreen"
-        android:text="Home" />
-
-    <Button
-        android:id="@+id/button18"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="goToMainScreen"
+        android:background="?attr/OtherButtons"
+        android:textColor="?attr/OtherButtonsText"
         android:text="Home" />
 
 </LinearLayout>
