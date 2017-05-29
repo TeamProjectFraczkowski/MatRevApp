@@ -3,6 +3,7 @@ package com.example.rupal.matrev;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
@@ -11,27 +12,34 @@ import android.widget.TextView;
 import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class TestActivity extends BaseActivity {
 
     protected RadioButton rb,rb2,rb3,rb4;
     private TextView tv;
     private Button b4;
-    private int counter = 1, points = 0;
-
-    List<Question> questions = new ArrayList<Question>();
+    private int counter = 1, points = 0, qNumber = -1, answer = -1;
+    private int[] availableNumbers;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
         setRadioButtons();
+
+        // TODO: Change this after increasing number of questions
+        availableNumbers = new int[10];
+
+        for (int i = 0; i < 9; i++)
+        {
+            availableNumbers[i] = i + 1;
+        }
+
         tv = (TextView) findViewById(R.id.textView5);
 
-
-        questions.add(new Question("", "", "", "", 2));
-        questions.add(new Question("", "", "", "", 0));
-        questions.add(new Question("", "", "", "", 3));
+        qNumber = getNextQuestionNumber();
+        setStrings();
     }
 
     //to disable returning previous questions
@@ -41,10 +49,9 @@ public class TestActivity extends BaseActivity {
 
     public void goToNextQuestion(View view)
     {
-        int answer = Integer.parseInt(getStringResourceByName(("qRA" + counter)));
-
         if (isAnswerRight(answer))
             points++;
+
         counter++;
 
         if(counter >= 10)
@@ -59,29 +66,61 @@ public class TestActivity extends BaseActivity {
             });
         }
 
-        setRadioButtons();
-        String q0 = "q" + counter;
+        else {
+            qNumber = getNextQuestionNumber();
+            setRadioButtons();
+            setStrings();
+            uncheckRadioButtons();
+        }
+    }
+
+    private void setStrings()
+    {
+        answer = Integer.parseInt(getStringResourceByName(("qRA" + qNumber)));
+
+        String q0 = "q" + qNumber;
         String s0 = getStringResourceByName(q0);
-        String q1 = "q" + counter + "a1";
+        String q1 = "q" + qNumber + "a1";
         String s1 = getStringResourceByName(q1);
-        String q2 = "q" + counter + "a2";
+        String q2 = "q" + qNumber + "a2";
         String s2 = getStringResourceByName(q2);
-        String q3 = "q" + counter + "a3";
+        String q3 = "q" + qNumber + "a3";
         String s3 = getStringResourceByName(q3);
-        String q4 = "q" + counter + "a4";
+        String q4 = "q" + qNumber + "a4";
         String s4 = getStringResourceByName(q4);
-
-
-        //TextView tw = (TextView) findViewById(R.id.pointsNumber);
-        //tw.setText(points);
-
 
         tv.setText(s0);
         rb.setText(s1);
         rb2.setText(s2);
         rb3.setText(s3);
         rb4.setText(s4);
-        uncheckRadioButtons();
+    }
+
+    private int getNextQuestionNumber()
+    {
+        boolean belongs = false;
+        Random rnd  = new Random();
+        int num = -1, qNumber = -1;
+
+        while (num == -1) {
+            num = rnd.nextInt(10) + 1;
+
+            for (int i = 0; i < 9; i++) {
+                if (availableNumbers[i] == num) {
+                    availableNumbers[i] = -1;
+                    qNumber = num;
+
+                    num = -2;
+                }
+            }
+
+            if (num != -2)
+                num = -1;
+        }
+
+        String str = "" + qNumber;
+        Log.d("qNumber",str );
+        return  qNumber;
     }
 
     private void goToResults()
