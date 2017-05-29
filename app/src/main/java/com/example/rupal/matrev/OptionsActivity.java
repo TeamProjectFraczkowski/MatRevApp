@@ -14,9 +14,17 @@ public class OptionsActivity extends BaseActivity
         setContentView(R.layout.activity_options);
     }
 
+    @Override
+    public void onBackPressed()
+    {
+        Intent goToMainScreenActivity = new Intent(this, MainActivity.class);
+        goToMainScreenActivity.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(goToMainScreenActivity);
+    }
+
     public void onReturnButtonClick(View view)
     {
-        super.onBackPressed();
+        onBackPressed();
     }
 
     public void changeTheme(View view)

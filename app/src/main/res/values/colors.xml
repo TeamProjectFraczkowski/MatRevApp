@@ -5,25 +5,24 @@
     <color name="colorPrimaryDark">#272f32</color>
     <color name="colorPrimary">#272f32</color>
 
+    <color name="colorPrimary1">#ffe8bf</color>
+    <color name="colorPrimaryLight">#ffe8bf</color>
+    <color name="colorAccent1">#ffe8bf</color>
+
+    <color name="white">#ffffff</color>
+    <color name="beige">#ffe8bf</color>
     <color name="red">#ff3d2e</color>
     <color name="blue">#9dbdc6</color>
     <color name="darkBlue">#272f32</color>
     <color name="lightBlue">#daeaef</color>
-    <color name="colorAccent4">#272f32</color>
-    <color name="colorAccent5">#272f32</color>
-    <color name="colorAccent6">#272f32</color>
-    <color name="colorAccent7">#272f32</color>
-    <color name="colorAccent8">#272f32</color>
-    <color name="colorAccent9">#272f32</color>
+    <color name="gray">#d3d3d3</color>
+    <color name="black">#000000</color>
+
     <color name="dotActive">#000000</color>
     <color name="dotInactive">#cccccc</color>
 
-    <color name="colorPrimary1">#f5f5dc</color>
-    <color name="colorPrimaryLight">#f5f5dc</color>
-    <color name="colorAccent1">#f5f5dc</color>
 
-    <color name="white">#ffffff</color>
-    <color name="backBlue">#253947</color>
+
 
 
 </resources>

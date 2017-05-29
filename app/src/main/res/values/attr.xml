@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="backgroundColor" format="color"/>
+
+    <attr name="StudyButton" format="color"/>
+    <attr name="StudyButtonText" format="color"/>
+
+    <attr name="RevisionButton" format="color"/>
+    <attr name="RevisionButtonText" format="color"/>
+
+    <attr name="RevisionButtonIn" format="color"/>
+    <attr name="RevisionButtonTextIn" format="color"/>
+
+    <attr name="TestButton" format="color"/>
+    <attr name="TestButtonText" format="color"/>
+
+    <attr name="OtherButtons" format="color"/>
+    <attr name="OtherButtonsText" format="color"/>
+
 </resources>

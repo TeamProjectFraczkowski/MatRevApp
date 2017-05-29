@@ -178,15 +178,15 @@
     </string>
 
     <string name="studyTopic1Text8.1">
-        	Pełny
+        - Pełny
     </string>
 
     <string name="studyTopic1Text8.2">
-         	Ograniczony
+         - Ograniczony
     </string>
 
     <string name="studyTopic1Text8.3">
-         	Uproszczony
+         - Uproszczony
     </string>
 
     <string name="studyTopic1Text8.4">
@@ -261,5 +261,28 @@
 
     <string name="login">Wpisz hasło, które otrzymałałeś podczas kursu: </string>
 
+    <string name="dozor_1">Uprawnienia są bezterminowe, ważne w Polsce i UE. A warunkami cofnięcia jest:</string>
+    <string name="dozor_2">1. Jeśli pracownik pracuje nie zgodnie z instrukcją</string>
+    <string name="dozor_3">2. Jeśli pracownik uszkodzi urządzenie</string>
+    <string name="dozor_4">3. Jeśli pracownik spowoduje wypadek</string>
+
+    <string name="dozor_5">Urząd Dozoru Technicznego wykonuje dopuszczenia urządzeń poddozorowych, egzaminuje osoby ubiegające się o uprawnienia do obsługi i konserwacji, certyfikuje nowo dopuszczane urządzenia na rynek UE.</string>
+    <string name="dozor_6">Osoby decydujące o sprawności UTB: Inspektor UDT, Konserwator, Pracodawca, Pracownik z uprawnieniami KAT  IP.</string>
+
+    <string name="obowiazki_1">Do obowiązków operatora należy sprawdzenie czy podest posiada:</string>
+    <string name="obowiazki_2">- UDT – decyzję o dopuszczeniu (księga rewizyjna)</string>
+    <string name="obowiazki_3">- Konserwację – potwierdzoną wpisem uprawnionego konserwatora (dziennik konserwacji)</string>
+    <string name="obowiazki_4">Pracownik obsługujący podest powinien posiadać odpowiednie uprawnienia do obsługi urządzeń transportu bliskiego wydane przez UDT - uprawnienia do obsługi podestów ruchomych przejezdnych, wolnobieżnych KAT. IP. Pracownik powinien posiadać też badania psychotechniczne i wysokościowe. Przed przystąpieniem do pracy, pracownik powinien zostać przeszkolony na stanowisku pracy.</string>
+    <string name="obowiazki_5">Do obowiązków operatora należy przestrzeganie instrukcji obsługi i eksploatacji. W przypadku stwierdzenia uszkodzenia podnośnika operator jest zobowiązany do niezwłocznego unieruchomienia urządzenia i natychmiastowego zawiadomienia przełożonego. Za bezpieczną obsługę podnośnika bezpośrednio odpowiedzialny jest operator. Obsługujący po otrzymaniu polecenia wykonania czynności sprzecznych z instrukcją obsługi i eksploatacji,  ma obowiązek odmówić jego wykonania.</string>
+    <string name="obowiazki_6">Podnośnikiem  nie wolno pracować, jeżeli nie jest dopuszczony do eksploatacji przez Inspektorat Dozoru Technicznego lub konserwatora. Ponadto po stwierdzeniu, że stan  techniczny zagraża bezpieczeństwu, pracy, a w szczególności przy uszkodzonych elementach  nośnych(wysięgniki, kosz, podpory itp. ), występują przecieki, uszkodzone zawory, nie działa wyłącznik krańcowy, jeżeli prędkość wiatru przekracza 12,5m/sek. (jeśli instrukcja nie przewiduje inaczej), Są również podesty które mogą pracować tylko w pomieszczeniach zamkniętych, pod napięciem lub w odległościach od sieci elektroenergetycznych mniejszych od dopuszczalnych  itp.. oraz w mniejszej odległości od wykopu(G. + 1m).</string>
+    <string name="obowiazki_7">Czynności wykonywane przed rozpoczęciem pracy:</string>
+    <string name="obowiazki_8">- Sprawdzić czy podest jest dopuszczony przez Inspektora UDT oraz konserwatora</string>
+    <string name="obowiazki_9">- Przygotowanie podnośnika do pracy- wg instrukcji</string>
+    <string name="obowiazki_10">- Przeprowadzić oględziny podestu, zwrócić uwagę na elementy konstrukcyjne, wycieki, brakujące elementy urządzenia</string>
+    <string name="obowiazki_11">- Sprawdzić działanie funkcji podestu  ze wszystkich punktów sterowania</string>
+    <string name="obowiazki_12">- Sprawdzić działanie wyłączników krańcowych</string>
+    <string name="obowiazki_13">- Sprawdzić działanie wyłączników awaryjnych</string>
+    <string name="obowiazki_14">- Sprawdzić działanie, hamulców</string>
+    <string name="obowiazki_15">- Sprawdzić stan naładowania akumulatorów oraz poziom płynów, olei</string>
 
 </resources>
