@@ -92,6 +92,7 @@ public class TestActivity extends BaseActivity {
         startActivity(resultActivity);
     }
 
+    // Sets Checked property to false
     private void uncheckRadioButtons()
     {
         rb.setChecked(false);
@@ -154,13 +155,13 @@ public class TestActivity extends BaseActivity {
     {
         RadioButton r = (RadioButton) findViewById(firstFilled);
 
-        // Untick the previous chosen
+        // Unticks the previous chosen
         if (firstFilled != secondFilled && secondFilled != -1) {
             r.setChecked(false);
             firstFilled = secondFilled;
         }
 
-        // Needed to not untick double clicked buttons
+        // Unticks double clicked buttons
         else
         {
             r.setChecked(true);
@@ -193,7 +194,6 @@ public class TestActivity extends BaseActivity {
             secondFilled = rb4.getId();
     }
 
-    // TODO: CHECK AFTERWARDS IF THIS METHOD WORKS RIGHT
     // Returns true if answer on this page is right
     private boolean isAnswerRight(int rightId){
 
@@ -210,10 +210,6 @@ public class TestActivity extends BaseActivity {
         }
 
         return false;
-    }
-
-    private void fillQuestions(){
-
     }
 
 }
