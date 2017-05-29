@@ -23,11 +23,14 @@
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:onClick="goToStudyTopic6"
                 android:background="?attr/OtherButtons"
-                android:textColor="?attr/OtherButtonsText"
-                android:text="Następny Temat" />
+                android:onClick="goToStudyTopic6"
+                android:text="Następny Temat"
+                android:textColor="?attr/OtherButtonsText" />
         </LinearLayout>
     </ScrollView>
 

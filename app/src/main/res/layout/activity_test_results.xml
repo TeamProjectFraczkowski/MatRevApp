@@ -33,9 +33,13 @@
         android:id="@+id/button18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="goToMainScreen"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:background="?attr/OtherButtons"
-        android:textColor="?attr/OtherButtonsText"
-        android:text="Home" />
+        android:onClick="goToMainScreen"
+        android:text="Home"
+        android:textColor="?attr/OtherButtonsText" />
 
 </LinearLayout>

@@ -58,11 +58,12 @@
                 android:id="@+id/button20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:onClick="onReturnButtonClick"
                 android:background="?attr/OtherButtons"
-                android:textColor="?attr/OtherButtonsText"
-                android:text="Wróć do Menu" />
+                android:onClick="onReturnButtonClick"
+                android:text="Wróć do Menu"
+                android:textColor="?attr/OtherButtonsText" />
         </LinearLayout>
     </ScrollView>
 

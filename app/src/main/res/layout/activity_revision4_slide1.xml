@@ -30,11 +30,14 @@
                 android:id="@+id/button26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="Następny Temat"
                 android:background="?attr/OtherButtons"
-                android:textColor="?attr/OtherButtonsText"
-                android:onClick="goToRevision5"/>
+                android:onClick="goToRevision5"
+                android:text="Następny Temat"
+                android:textColor="?attr/OtherButtonsText" />
 
         </LinearLayout>
     </ScrollView>

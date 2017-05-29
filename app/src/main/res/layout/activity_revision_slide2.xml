@@ -22,7 +22,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView12"
@@ -48,11 +48,14 @@
                 android:id="@+id/button11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:onClick="goToRevision2"
                 android:background="?attr/OtherButtons"
-                android:textColor="?attr/OtherButtonsText"
-                android:text="Następny Temat" />
+                android:onClick="goToRevision2"
+                android:text="Następny Temat"
+                android:textColor="?attr/OtherButtonsText" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

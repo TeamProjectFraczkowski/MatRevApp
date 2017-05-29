@@ -90,8 +90,9 @@
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:onClick="popupConfirmation"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:background="?attr/OtherButtons"
-        android:textColor="?attr/OtherButtonsText"
-        android:text="Porzuć Test" />
+        android:onClick="popupConfirmation"
+        android:text="Porzuć Test"
+        android:textColor="?attr/OtherButtonsText" />
 </LinearLayout>
