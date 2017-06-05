@@ -321,4 +321,30 @@ Pamiętaj, że nie wolno przeciążać podestu. Producent urządzenia w instrukc
     <string name="parametry15">W podestach nie stosuje się równocześnie zaworów bezpieczeństwa i zaworów przelewowych. Zastosowanie mają tylko zawory przelewowe, ponieważ przez zawór przelewowy ciecz może płynąć przez dłuższe okresy czasu.</string>
     <string name="parametry16">Próbę szczelności przeprowadza się przy obciążeniu maksymalnym ale nie przekraczającym udźwigu podestu, dokonujemy podniesienia i  nie powinny występować przecieki zewnętrzne w postaci kropienia oleju na złączkach,  przy zaworach, rozdzielaczach, siłownikach, przewodach itp. Układ hydrauliczny powinien być tak wykonany, aby w przypadku pęknięcia przewodów lub przerwy w dopływie energii nastąpiło unieruchomienie danego mechanizmu nawet w przypadku, gdy urządzenia sterownicze nie są w położeniu zerowym lub, że prędkość opadania kosza nie będzie większa niż 0,01 m/sek. ( 1 cm /s ) i że podnośnik nie utraci stateczności.</string>
     <string name="parametry17">Dopuszczalne przecieki wewnętrzne – niewidoczne w siłownikach, zaworach, rozdzielaczach itp., w wyniku których prędkość opadania kosza (siłownika)przy obciążeniu nominalnym nie może być większa niż 10 cm/h przy podporach 4 mm/h.</string>
+    <string name="parametry18">Układ hydrauliczny powinien być wyposażony w następujące zawory:</string>
+    <string name="parametry19">- zawory zwrotne jednokierunkowe</string>
+    <string name="parametry20">zabezpieczające przed skutkami pęknięcia przewodów ciśnieniowych</string>
+    <string name="parametry21">- zawory zwrotne sterowane</string>
+    <string name="parametry22">zawory przeznaczone do utrzymania nurników w cylindrach w danym położeniu  oraz zabezpieczające przez skutkami pęknięcia przewodów ciśnieniowych</string>
+    <string name="parametry23">- zawory przelewowe</string>
+    <string name="parametry24">utrzymujące w układzie ciśnienie o określone wartości.</string>
+    <string name="parametry25">Wszystkie zawory powinny być odpowiednio wyregulowane i zaplombowane. Regulacje zaworów może wykonać konserwator, jeżeli posiada, odpowiednie przyrządy do sprawdzenia ich nastawień . Po regulacji należy założyć plomby.</string>
+    <string name="parametry26">Próba statyczna na podeście</string>
+    <string name="parametry27">Obsługujący nie może sam przeprowadzić próby statycznej ponieważ taką próbę dokonuje się w trakcie badań odbiorczych, okresowych oraz eksploatacyjnych doraźnych i doraźnych powypadkowych i poawaryjnych.</string>
+    <string name="parametry28">Taka próba jest dokonywana pod nadzorem Inspektora UDT, oraz w obecności konserwatora i pracownika z uprawnieniami KAT. IP.
+Próba statyczna wykonywana jest na przeciążeniu 125% chyba że producent w instrukcja nie zezwala na taki przeciążenie.
+</string>
+    <string name="parametry29">Sprawdzanie zaworów zwrotnych sterowanych - zamków hydraulicznych</string>
+    <string name="parametry30">W celu sprawdzenia zaworów zwrotnych sterowanych (przy sterowaniu bezpośrednim) należy po podniesieniu obciążonego 100% podestu wyłączyć napęd  pompy hydraulicznej i dźwigniami rozdzielaczy sterować w kierunku opuszczania wysięgników i składania podpór - nie powinno nastąpić opadanie wysięgników lub podpór.</string>
+    <string name="parametry31">Przy sterowaniu pośrednim  należy delikatnie,  z zachowaniem ostrożności poluzować łączkę przewodu z zamkiem hydraulicznym. Tą czynność może wykonywać tylko uprawniony konserwator.</string>
+    <string name="parametry32">Stateczność</string>
+    <string name="parametry33">Stateczność podestu jest to zdolność konstrukcji podestu ruchomego przejezdnego do zachowania równowagi trwałej.</string>
+    <string name="parametry34">Na stateczność mają wpływ:</string>
+    <string name="parametry35">- niekorzystne działanie siły wiatru</string>
+    <string name="parmetry36">- podłoże</string>
+    <string name="parametry37">- działanie sił dynamicznych</string>
+    <string name="parametry38">- siły bezwładności, które występują przy zmianie prędkości ruchów roboczych platformy tj. prędkości ruchów — czyli rozruchu i hamowania</string>
+    <string name="parametry39">- rozruch i hamowanie mechanizmów obrotu.</string>
+    <string name="parametry40">Należy pamiętać, że w każdym przypadku moment ustalający ( stabilizujący ) powinien być większy od momentu wywracającego.</string>
+    
 </resources>
