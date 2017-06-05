@@ -288,4 +288,37 @@
     <string name="obowiazki_17">W czasie pracy operator powinien przestrzegać instrukcji obsługi, a w szczególności nie dopuścić do przeciążania podnośnika. Obserwować pracowników będących w koszu i reagować na ich sygnały. Wszystkie ruchy należy wykonywać płynnie. Uważać na przeszkody terenowe.</string>
     <string name="obowiazki_18">Jeśli podest wyposażony jest w podpory, to muszą one być odpowiednio ustawione na twardym podłożu, a podest odpowiednio wypoziomowany. Zabrania się opuszczania stanowiska pracy przez operatora, jeżeli w koszu znajdują się ludzie.</string>
 
+    <string name="rodzajeurzadzen1">Podesty ruchome są urządzeniami (maszynami) przeznaczonymi do przemieszczania na stanowiska pracy platformy roboczej wraz z osobami i wyposażeniem. Wejście i zejście z platformy roboczej odbywa się w jednym określonym położeniu platformy (w punkcie załadowczym).</string>
+    <string name="rodzajeurzadzen2">Rys. 1  Podest ruchomy  przejezdny wolnobieżny - nożycowy</string>
+    <string name="rodzajeurzadzen3">Rys. 2  Podest ruchomy przejezdny z wysięgnikiem przegubowo – teleskopowym.</string>
+    <string name="rodzajeurzadzen4">Rys. 3  Podest ruchomy przejezdny z wysięgiem teleskopowym</string>
+    <string name="rodzajeurzadzen5">W KAT. IP występują jeszcze dwa podesty:</string>
+    <string name="rodzajeurzadzen6">Rys. 4  Podest ruchomy przewoźny na wózku jezdnym. </string>
+    <string name="rodzajeurzadzen7">Rys. 5  Podest samojezdny.</string>
+    <string name="rodzajeurzadzen8">Występuje też kategoria IIP:</string>
+    <string name="rodzajeurzadzen9">- Podest ruchomy stacjonarny, KAT. II P</string>
+    <string name="rodzajeurzadzen10">- Podest wiszący, KAT. II P</string>
+    <string name="rodzajeurzadzen11">- Podest masztowy. KAT. II P</string>
+
+    <string name="parametry1">Udźwig</string>
+    <string name="parametry2">Udźwig jest to dopuszczalne obciążenie, określone przez wytwórcę, ( producenta ) jakie może przenieść platforma robocza podestu ruchomego przejezdnego podczas normalnej pracy.
+Może być podany udźwig  np. 210 kg MAX  ( 2 osoby + 50 kg narzędzia, materiału ). Przyjmujemy że osoba waży 80 kg, jeśli osoba waży więcej niż 80 kg pomniejszamy wagę narzędzi, materiałów.
+</string>
+    <string name="parametry3">2 osoby x 80 kg  = 160 kg + 50 kg= 210 kg</string>
+    <string name="parametry4">Na podeście przy wysuniętym pomoście ( balkonie ) może przebywać tylko  1  osoba ( chyba że instrukcja obsługi wydana przez producenta mówi inaczej ).
+Pamiętaj, że nie wolno przeciążać podestu. Producent urządzenia w instrukcji obsługi określa gdzie urządzeniem można pracować, na jakiej wysokości  i o ilości osób mogących przebywać na urządzeniu.
+</string>
+    <string name="parametry5">Budowa podestu ruchomego:</string>
+    <string name="parametry6">-	Wózek jezdny wraz z mechanizmami ruchu</string>
+    <string name="parametry7">-	Platforma robocza</string>
+    <string name="parametry8">- Wieża obrotowa wraz z mechanizmem obrotu</string>
+    <string name="parametry9">-	Podpory hydrauliczne</string>
+    <string name="paramery10">-	Układy elektryczne</string>
+    <string name="parametry11">- Układy hydrauliczne</string>
+    <string name="parametry12">- Zabezpieczenia – elektryczne, mechaniczne, hydrauliczne</string>
+    <string name="parametry13">Budowa układu hydraulicznego:</string>
+    <string name="parametry14">Układ hydrauliczny składa się z pompy napędzanej przez silnik, rozdzielaczy, zawory zwrotne jednokierunkowe,  zaworów zwrotnych sterowanych, zaworów przelewowych, siłowników wysięgnika dolnego i górnego oraz podpór, przewodów sztywnych i elastycznych, filtrów, wyłączników krańcowych., złącza obrotowego, ciśnieniomierza, zbiornika oleju hydraulicznego itp.</string>
+    <string name="parametry15">W podestach nie stosuje się równocześnie zaworów bezpieczeństwa i zaworów przelewowych. Zastosowanie mają tylko zawory przelewowe, ponieważ przez zawór przelewowy ciecz może płynąć przez dłuższe okresy czasu.</string>
+    <string name="parametry16">Próbę szczelności przeprowadza się przy obciążeniu maksymalnym ale nie przekraczającym udźwigu podestu, dokonujemy podniesienia i  nie powinny występować przecieki zewnętrzne w postaci kropienia oleju na złączkach,  przy zaworach, rozdzielaczach, siłownikach, przewodach itp. Układ hydrauliczny powinien być tak wykonany, aby w przypadku pęknięcia przewodów lub przerwy w dopływie energii nastąpiło unieruchomienie danego mechanizmu nawet w przypadku, gdy urządzenia sterownicze nie są w położeniu zerowym lub, że prędkość opadania kosza nie będzie większa niż 0,01 m/sek. ( 1 cm /s ) i że podnośnik nie utraci stateczności.</string>
+    <string name="parametry17">Dopuszczalne przecieki wewnętrzne – niewidoczne w siłownikach, zaworach, rozdzielaczach itp., w wyniku których prędkość opadania kosza (siłownika)przy obciążeniu nominalnym nie może być większa niż 10 cm/h przy podporach 4 mm/h.</string>
 </resources>
