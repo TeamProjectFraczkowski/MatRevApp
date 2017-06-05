@@ -362,4 +362,32 @@ Próba statyczna wykonywana jest na przeciążeniu 125% chyba że producent w in
     <string name="obsluga13">Co ma wpływ na prędkość jazdy podestu?</string>
     <string name="obsluga14">Szybki oraz wolny bieg można stosować tylko przy całkowicie złożonym urządzeniu. W przypadku pochylenia poniżej 3° oraz rozłożonym przegubie, podniesionym teleskopie lub podniesionym ponad poziom ramienia kosza jazda urządzeniem możliwa jest tylko na mikro biegu.</string>
 
+    <string name="zagrozenia1">Podczas pracy na podestach ruchomych występują, następujące zagrożenia:</string>
+    <string name="zagrozenia2">- Wiatr</string>
+    <string name="zagrozenia3">- Deszcz</string>
+    <string name="zagrozenia4">- Wyładowania atmosferyczne</string>
+    <string name="zagrozenia5">- Niestabilność terenu</string>
+    <string name="zagrozenia6">- Praca w pobliżu przewodów pod napięciem</string>
+    <string name="zagrozenia7">- Praca w pobliżu przebywających ludzi lub pracujących urządzeń</string>
+    <string name="zagrozenia8">Źle zabezpieczone materiały na podeście</string>
+    <string name="zagrozenia9">- Przeładowanie podestu</string>
+    <string name="zagrozenia10">- Transport materiałów niebezpiecznych</string>
+    <string name="zagrozenia11">- Transport materiałów kulistych.</string>
+    <string name="zagrozenia12">Sposoby kontroli obciążenia kosza</string>
+    <string name="zagrozenia13">W przypadku, kiedy obciążenie kosza roboczego przekroczy dopuszczalną wartość, następuje odłączenie wszelkich czynności sterowniczych z poziomu kosza. Operator otrzymuje ostrzeżenie za pomocą lampki kontrolnej przeciążenia kosza roboczego oraz akustycznego sygnału dźwiękowego. Ponowne uruchomienie urządzenia jest możliwe po usunięciu stanu przeciążenia.</string>
+    <string name="zagrozenia14">Przechył urządzenia</string>
+    <string name="zagrozenia15">W przypadku kiedy urządzenie nie znajduje się w pozycji transportowej (rozłożony jeden z elementów wykonawczych), a jego przechył przekroczy dopuszczalną wartość 3° czujnik przechyłu urządzenia wydaje akustyczny sygnał dźwiękowy. Dalsza praca z poziomu kosza w takich warunkach jest zabroniona. Jeżeli, stan taki utrzymuje się powyżej 1-2 sekund następuje przerwanie wszystkich czynności roboczych urządzenia takich jak:</string>
+    <string name="zagrozenia16">- podniesienie przegubu, podniesienie oraz wysunięcie teleskopu, podniesienie ramienia kosza, obrót korpusu oraz dalsza jazda do czasu kiedy nie nastąpi złożenie elementów wykonawczych.</string>
+    <string name="zagrozenia17">Ponowna jazda jest możliwa dopiero po złożeniu, wszystkich elementów wykonawczych do pozycji transportowej.</string>
+    <string name="zagrozenia18">WSKAZÓWKA</string>
+    <string name="zagrozenia19">Przy rozłożonym urządzeniu czujnik przechyłu wysyła akustyczny sygnał dźwiękowy tak długo jak przechylenie przekracza dopuszczalną wartość graniczną. Operator tym samym zostaje poinformowany, że nie jest możliwe rozłożenie elementów wykonawczych urządzenia</string>
+
+    <string name="zabezpieczenia1">Zabezpieczenia na podeście:</string>
+    <string name="zabezpieczenia2">- Mechaniczne</string>
+    <string name="zabezpieczenia3">zabezpieczenia trzpieni układów kinetycznych, drzwiczki, rygiel, płozy, podpora mechaniczna, barierki, zaczepy do szelek, stacyjka.</string>
+    <string name="zabezpieczenia4">- Elektryczne</string>
+    <string name="zabezpieczenia5">łączniki STOP, wyłączniki krańcowe, wyłączniki przeciążeniowe, czujnik przechyłu, stacyjka, wszystkie funkcyjne przyciski mają sprężyny zwrotne.</string>
+    <string name="zabezpieczenia6">- Hydrauliczne</string>
+    <string name="zabezpieczenia7">zawory zwrotne jednokierunkowe, zawory zwrotne sterowane, zawory przelewowe, sterowanie elektrozaworami</string>
+
 </resources>
