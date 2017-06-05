@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
@@ -18,6 +19,7 @@ public class TestActivity extends BaseActivity {
 
     protected RadioButton rb,rb2,rb3,rb4;
     private TextView tv;
+    private ImageView iv1, iv2, iv3, iv4, iv5, iv6, iv7, iv8;
     private Button b4;
     private int counter = 1, points = 0, qNumber = -1, answer = -1;
     private int[] availableNumbers;
@@ -27,6 +29,23 @@ public class TestActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
         setRadioButtons();
+        iv1 = (ImageView) findViewById(R.id.imageView2);
+        iv2 = (ImageView) findViewById(R.id.imageView8);
+        iv3 = (ImageView) findViewById(R.id.imageView9);
+        iv4 = (ImageView) findViewById(R.id.imageView10);
+        iv5 = (ImageView) findViewById(R.id.imageView11);
+        iv6 = (ImageView) findViewById(R.id.imageView12);
+        iv7 = (ImageView) findViewById(R.id.imageView13);
+        iv8 = (ImageView) findViewById(R.id.imageView14);
+
+        iv1.setVisibility(View.INVISIBLE);
+        iv2.setVisibility(View.INVISIBLE);
+        iv3.setVisibility(View.INVISIBLE);
+        iv4.setVisibility(View.INVISIBLE);
+        iv5.setVisibility(View.INVISIBLE);
+        iv6.setVisibility(View.INVISIBLE);
+        iv7.setVisibility(View.INVISIBLE);
+        iv8.setVisibility(View.INVISIBLE);
 
         // TODO: Change this after increasing number of questions
         availableNumbers = new int[10];
