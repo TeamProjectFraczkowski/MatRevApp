@@ -14,103 +14,94 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView81"
+                android:id="@+id/textView92"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen1" />
+                android:text="@string/parametry5" />
 
             <TextView
-                android:id="@+id/textView82"
+                android:id="@+id/textView93"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen2" />
+                android:text="@string/parametry6" />
 
             <TextView
-                android:id="@+id/textView83"
+                android:id="@+id/textView94"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen3" />
+                android:text="@string/parametry7" />
 
             <TextView
-                android:id="@+id/textView84"
+                android:id="@+id/textView95"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen4" />
+                android:text="@string/parametry8" />
 
             <TextView
-                android:id="@+id/textView85"
+                android:id="@+id/textView96"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen5" />
+                android:text="@string/parametry9" />
 
             <TextView
-                android:id="@+id/textView86"
+                android:id="@+id/textView97"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen6" />
+                android:text="@string/parametry10" />
 
             <TextView
-                android:id="@+id/textView87"
+                android:id="@+id/textView98"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen7" />
+                android:text="@string/parametry11" />
 
             <TextView
-                android:id="@+id/textView88"
+                android:id="@+id/textView99"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen8" />
+                android:text="@string/parametry12" />
 
             <TextView
-                android:id="@+id/textView89"
+                android:id="@+id/textView100"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen9" />
+                android:text="@string/parametry13" />
 
             <TextView
-                android:id="@+id/textView90"
+                android:id="@+id/textView101"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen10" />
-
-            <TextView
-                android:id="@+id/textView91"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen11" />
+                android:text="@string/parametry14" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

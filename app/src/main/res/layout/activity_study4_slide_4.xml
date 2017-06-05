@@ -14,103 +14,77 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView81"
+                android:id="@+id/textView92"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen1" />
+                android:text="@string/parametry18" />
 
             <TextView
-                android:id="@+id/textView82"
+                android:id="@+id/textView93"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen2" />
+                android:text="@string/parametry19" />
 
             <TextView
-                android:id="@+id/textView83"
+                android:id="@+id/textView94"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen3" />
+                android:text="@string/parametry20" />
 
             <TextView
-                android:id="@+id/textView84"
+                android:id="@+id/textView102"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen4" />
+                android:text="@string/parametry21" />
 
             <TextView
-                android:id="@+id/textView85"
+                android:id="@+id/textView103"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen5" />
+                android:text="@string/parametry22" />
 
             <TextView
-                android:id="@+id/textView86"
+                android:id="@+id/textView104"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen6" />
+                android:text="@string/parametry23" />
 
             <TextView
-                android:id="@+id/textView87"
+                android:id="@+id/textView105"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen7" />
+                android:text="@string/parametry24" />
 
             <TextView
-                android:id="@+id/textView88"
+                android:id="@+id/textView106"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen8" />
+                android:text="@string/parametry25" />
 
-            <TextView
-                android:id="@+id/textView89"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen9" />
-
-            <TextView
-                android:id="@+id/textView90"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen10" />
-
-            <TextView
-                android:id="@+id/textView91"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="@string/rodzajeurzadzen11" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
