@@ -346,5 +346,48 @@ Próba statyczna wykonywana jest na przeciążeniu 125% chyba że producent w in
     <string name="parametry38">- siły bezwładności, które występują przy zmianie prędkości ruchów roboczych platformy tj. prędkości ruchów — czyli rozruchu i hamowania</string>
     <string name="parametry39">- rozruch i hamowanie mechanizmów obrotu.</string>
     <string name="parametry40">Należy pamiętać, że w każdym przypadku moment ustalający ( stabilizujący ) powinien być większy od momentu wywracającego.</string>
-    
+
+    <string name="obsluga1">Bezpieczna odległość pomiędzy wykopem a podestem</string>
+    <string name="obsluga2">Odległość od wykopu mierzona jest:</string>
+    <string name="obsluga3">- jeśli nie ma podpór - do koła (do zewnętrznej części lub osi koła),</string>
+    <string name="obsluga4">- jeśli podest posiada podpory - do środka podpory.</string>
+    <string name="obsluga5">Poziomica sferyczna</string>
+    <string name="obsulga6">Poziomica sferyczna ma za zadanie poinformować pracownika o przekroczeniu dopuszczalnego przechylenia podestu. ( od 1° do 3° wg. instrukcji obsługi ) . Operator otrzymuje informacje dźwiękową oraz sygnałem świetlnym. W podestach nożycowych można sprawdzić poziomicę sferyczną w następujący sposób. Podnieść kosz sterując z dołu, na tyle żeby można było wysunąć podporę mechaniczną i wtedy można powoli opuścić część nożyc na tyle żeby podpora zablokowała dalsze opuszczenie. W takiej sytuacji można chwycić poziomicę i przechylając ją w każdą stronę zasymulować przechylanie podestu. W podestach ramieniowych przy całkowitym złożonym podeście otworzyć pokrywę z poziomicą i wykonując przechylenia poziomicy w każdą stronę symulując przechylanie podestu.</string>
+    <string name="obsulga7">Ogólne przepisy BHP przy obsłudze, podnośnika i pracy na wysokości</string>
+    <string name="obsluga8">Obsługę podnośnika należy powierzyć osobom posiadającym odpowiednie uprawnienia oraz aktualne badania psychotechniczne i lekarskie. Podnośnik powinien być powierzony do stałej konserwacji osobie posiadającej odpowiednie uprawnienia. Konserwator powinien usuwać na bieżąco usterki i nieprawidłowości w działaniu urządzenia oraz wykonywać przeglądy w zakresie i czasookresach zgodnie z instrukcją eksploatacji. Do pracy w koszu podnośnika mogą być dopuszczeni pracownicy posiadający zdolność do pracy na wysokości. Praca podnośnika odbywać się może przy pełnej sprawności technicznej stwierdzonej przez operatora po dokonaniu przeglądu (OC ). Pracownicy pracujący w koszu przy zastosowaniu szelek bezpieczeństwa, zaczepiają je do uchwytów specjalnie do tego przystosowanych. Jeśli podest ich nie posiada należy ustalić z kierownikiem gdzie i do jakich elementów należy je przypiąć.</string>
+    <string name="obsulga9">Sposoby sterowania przy napędach hydraulicznych</string>
+    <string name="obsluga10">Przy napędach hydraulicznych stosuje się sterowanie bezpośrednie za pomocą rozdzielaczy i pośrednie za pomocą elektrozaworów. Elementami wykonawczymi w hydraulice siłowej są siłowniki jednostronnego lub dwustronnego działania oraz silniki hydrauliczny. Ciśnienie robocze w poszczególnych obwodach siłowych wynoszą 90 do 140 atm. /kg/cm2 lub bar/ 9 do 14 MPa.</string>
+    <string name="obsluga11">Urządzenia sterownicze ( dźwignie rozdzielaczy ,przyciski itp.),powinny być tak skonstruowane, aby uniemożliwić niezamierzone ich samo załączenie a po zaniku siły oddziałującej powinny samoczynnie wracać do położenia neutralnego. Przy sterowaniu z kilku stanowisk wymagany przełącznik wyboru stanowiska sterowania ( blokada uniemożliwiająca jednoczesne sterowanie z więcej niż jednego stanowiska).Nowoczesne podesty ruchome są wyposażone w ogranicznik obciążenia, który zabezpiecza przez przeciążeniem a w efekcie przez utratą stateczności urządzenia. Dopuszczalne obciążenie podestów ruchomych z wysięgnikiem zależą od wysięgu (wysięg - odległość pozioma od pionowej osi podestu do osi obrotu) .Ze wzrostem wysięgu wzrasta moment wywracający.</string>
+    <string name="obsluga12">Ogranicznik udźwigu wyłącza ruchy mechanizmów pogarszających stateczność urządzenia, opuszczanie wysięgnika, teleskopowanie wysięgnika (wydłużanie), czasem również obrót. Przy niektórych podnośnikach stosuje się system nadzoru podpór - nie da się uruchomić urządzenia, jeżeli wszystkie podpory nie zostały rozłożone lub jeżeli podpory nie mają kontaktu z podłożem (np. spadek ciśnienia, wyciek oleju z silnika, podpory 1%). Otwieranie zaworu zwrotnego sterowanego (mechaniczne), dodatkową pompę zasilaną z oddzielnego źródła zasilania (elektryczne) lub pompy ręcznej (hydrauliczne). </string>
+    <string name="obsluga13">Co ma wpływ na prędkość jazdy podestu?</string>
+    <string name="obsluga14">Szybki oraz wolny bieg można stosować tylko przy całkowicie złożonym urządzeniu. W przypadku pochylenia poniżej 3° oraz rozłożonym przegubie, podniesionym teleskopie lub podniesionym ponad poziom ramienia kosza jazda urządzeniem możliwa jest tylko na mikro biegu.</string>
+
+    <string name="zagrozenia1">Podczas pracy na podestach ruchomych występują, następujące zagrożenia:</string>
+    <string name="zagrozenia2">- Wiatr</string>
+    <string name="zagrozenia3">- Deszcz</string>
+    <string name="zagrozenia4">- Wyładowania atmosferyczne</string>
+    <string name="zagrozenia5">- Niestabilność terenu</string>
+    <string name="zagrozenia6">- Praca w pobliżu przewodów pod napięciem</string>
+    <string name="zagrozenia7">- Praca w pobliżu przebywających ludzi lub pracujących urządzeń</string>
+    <string name="zagrozenia8">Źle zabezpieczone materiały na podeście</string>
+    <string name="zagrozenia9">- Przeładowanie podestu</string>
+    <string name="zagrozenia10">- Transport materiałów niebezpiecznych</string>
+    <string name="zagrozenia11">- Transport materiałów kulistych.</string>
+    <string name="zagrozenia12">Sposoby kontroli obciążenia kosza</string>
+    <string name="zagrozenia13">W przypadku, kiedy obciążenie kosza roboczego przekroczy dopuszczalną wartość, następuje odłączenie wszelkich czynności sterowniczych z poziomu kosza. Operator otrzymuje ostrzeżenie za pomocą lampki kontrolnej przeciążenia kosza roboczego oraz akustycznego sygnału dźwiękowego. Ponowne uruchomienie urządzenia jest możliwe po usunięciu stanu przeciążenia.</string>
+    <string name="zagrozenia14">Przechył urządzenia</string>
+    <string name="zagrozenia15">W przypadku kiedy urządzenie nie znajduje się w pozycji transportowej (rozłożony jeden z elementów wykonawczych), a jego przechył przekroczy dopuszczalną wartość 3° czujnik przechyłu urządzenia wydaje akustyczny sygnał dźwiękowy. Dalsza praca z poziomu kosza w takich warunkach jest zabroniona. Jeżeli, stan taki utrzymuje się powyżej 1-2 sekund następuje przerwanie wszystkich czynności roboczych urządzenia takich jak:</string>
+    <string name="zagrozenia16">- podniesienie przegubu, podniesienie oraz wysunięcie teleskopu, podniesienie ramienia kosza, obrót korpusu oraz dalsza jazda do czasu kiedy nie nastąpi złożenie elementów wykonawczych.</string>
+    <string name="zagrozenia17">Ponowna jazda jest możliwa dopiero po złożeniu, wszystkich elementów wykonawczych do pozycji transportowej.</string>
+    <string name="zagrozenia18">WSKAZÓWKA</string>
+    <string name="zagrozenia19">Przy rozłożonym urządzeniu czujnik przechyłu wysyła akustyczny sygnał dźwiękowy tak długo jak przechylenie przekracza dopuszczalną wartość graniczną. Operator tym samym zostaje poinformowany, że nie jest możliwe rozłożenie elementów wykonawczych urządzenia</string>
+
+    <string name="zabezpieczenia1">Zabezpieczenia na podeście:</string>
+    <string name="zabezpieczenia2">- Mechaniczne</string>
+    <string name="zabezpieczenia3">zabezpieczenia trzpieni układów kinetycznych, drzwiczki, rygiel, płozy, podpora mechaniczna, barierki, zaczepy do szelek, stacyjka.</string>
+    <string name="zabezpieczenia4">- Elektryczne</string>
+    <string name="zabezpieczenia5">łączniki STOP, wyłączniki krańcowe, wyłączniki przeciążeniowe, czujnik przechyłu, stacyjka, wszystkie funkcyjne przyciski mają sprężyny zwrotne.</string>
+    <string name="zabezpieczenia6">- Hydrauliczne</string>
+    <string name="zabezpieczenia7">zawory zwrotne jednokierunkowe, zawory zwrotne sterowane, zawory przelewowe, sterowanie elektrozaworami</string>
+
 </resources>
