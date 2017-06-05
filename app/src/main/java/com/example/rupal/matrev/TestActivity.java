@@ -31,7 +31,7 @@ public class TestActivity extends BaseActivity {
         // TODO: Change this after increasing number of questions
         availableNumbers = new int[10];
 
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < 10; i++)
         {
             availableNumbers[i] = i + 1;
         }
@@ -56,6 +56,10 @@ public class TestActivity extends BaseActivity {
 
         if(counter >= 10)
         {
+            qNumber = getNextQuestionNumber();
+            setRadioButtons();
+            setStrings();
+            uncheckRadioButtons();
             b4 = (Button) findViewById(R.id.button4);
             b4.setText(R.string.finishTest);
             b4.setOnClickListener(new View.OnClickListener() {
@@ -103,9 +107,9 @@ public class TestActivity extends BaseActivity {
         int num = -1, qNumber = -1;
 
         while (num == -1) {
-            num = rnd.nextInt(10) + 1;
+            num = rnd.nextInt(11) + 1;
 
-            for (int i = 0; i < 9; i++) {
+            for (int i = 0; i < 10; i++) {
                 if (availableNumbers[i] == num) {
                     availableNumbers[i] = -1;
                     qNumber = num;

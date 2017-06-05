@@ -284,5 +284,8 @@
     <string name="obowiazki_13">- Sprawdzić działanie wyłączników awaryjnych</string>
     <string name="obowiazki_14">- Sprawdzić działanie, hamulców</string>
     <string name="obowiazki_15">- Sprawdzić stan naładowania akumulatorów oraz poziom płynów, olei</string>
+    <string name="obowiazki_16">Obowiązki operatora w czasie pracy:</string>
+    <string name="obowiazki_17">W czasie pracy operator powinien przestrzegać instrukcji obsługi, a w szczególności nie dopuścić do przeciążania podnośnika. Obserwować pracowników będących w koszu i reagować na ich sygnały. Wszystkie ruchy należy wykonywać płynnie. Uważać na przeszkody terenowe.</string>
+    <string name="obowiazki_18">Jeśli podest wyposażony jest w podpory, to muszą one być odpowiednio ustawione na twardym podłożu, a podest odpowiednio wypoziomowany. Zabrania się opuszczania stanowiska pracy przez operatora, jeżeli w koszu znajdują się ludzie.</string>
 
 </resources>
