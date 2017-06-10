@@ -39,7 +39,8 @@ public class StudyTopic2Activity extends BaseActivity{
         layouts = new int[]{
                 R.layout.activity_study2_slide_1,
                 R.layout.activity_study2_slide_2,
-                R.layout.activity_study2_slide_3};
+                R.layout.activity_study2_slide_3,
+                R.layout.activity_study2_slide_4};
 
 
         // adding bottom dots

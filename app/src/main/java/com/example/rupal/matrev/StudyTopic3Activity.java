@@ -38,6 +38,7 @@ public class StudyTopic3Activity extends BaseActivity{
         dotsLayout = (LinearLayout) findViewById(R.id.layoutDots);
 
         layouts = new int[]{
+                R.layout.activity_study3_slide_1,
                 R.layout.activity_study3_slide_last};
 
         // adding bottom dots

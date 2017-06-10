@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import static android.R.attr.id;
 import static com.example.rupal.matrev.R.id.textView10;
@@ -56,6 +57,11 @@ public class LoginActivity extends AppCompatActivity
                 String input = et.getText().toString();
                 if(checkPassword(input)){
                     onLoginButtonClick(v);
+                }
+                else
+                {
+                    TextView tv = (TextView) findViewById(R.id.textView127);
+                    tv.setVisibility(View.VISIBLE);
                 }
             }
         });

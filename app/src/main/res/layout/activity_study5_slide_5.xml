@@ -14,10 +14,23 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView41"
+                android:id="@+id/textView57"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/obsluga13"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/obsluga14" />
 
             <Button
                 android:id="@+id/button9"
@@ -28,8 +41,8 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:background="?attr/OtherButtons"
-                android:onClick="goToMainMenu"
-                android:text="Wróć do menu"
+                android:onClick="goToStudyTopic6"
+                android:text="Następny Temat"
                 android:textColor="?attr/OtherButtonsText" />
         </LinearLayout>
     </ScrollView>

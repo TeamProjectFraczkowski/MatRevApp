@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,7 +37,11 @@ public class StudyTopic5Activity extends BaseActivity{
         dotsLayout = (LinearLayout) findViewById(R.id.layoutDots);
 
         layouts = new int[]{
-                R.layout.activity_study5_slide_last};
+                R.layout.activity_study5_slide_1,
+                R.layout.activity_study5_slide_2,
+                R.layout.activity_study5_slide_3,
+                R.layout.activity_study5_slide_4,
+                R.layout.activity_study5_slide_5};
 
         // adding bottom dots
         addBottomDots(0);
