@@ -21,7 +21,8 @@
             android:label="MatRev">
         </activity>
         <activity android:name=".TestActivity"
-            android:label="Test">
+            android:label="Test"
+            android:configChanges="orientation|screenSize">
         </activity>
         <activity android:name=".ResultActivity"
             android:label="Rezultaty">
