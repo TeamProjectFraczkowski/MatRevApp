@@ -13,16 +13,36 @@
     <string name="nextQuestion">Następne pytanie</string>
     <string name="finishTest">Zakończ test</string>
 
-    <string name="q1">Question 1</string>
-    <string name="q2">Question 2</string>
-    <string name="q3">Question 3</string>
-    <string name="q4">Question 4</string>
-    <string name="q5">Question 5</string>
-    <string name="q6">Question 6</string>
-    <string name="q7">Question 7</string>
-    <string name="q8">Question 8</string>
-    <string name="q9">Question 9</string>
-    <string name="q10">Question 10</string>
+    <string name="q1">Co nazywamy Urzędem Dozoru Technicznego?</string>
+    <string name="q2">Kiedy Urząd Dozoru Technicznego wykona badania doraźne eksploatacyjne przy urządzeniu?</string>
+    <string name="q3">Proszę podać podstawowe elementy zabezpieczające typu elektrycznego, stosowane w podestach ruchomych wolnobieżnych:</string>
+    <string name="q4">Czy wszystkie podesty ruchome wolnobieżne w KAT I P mogą pracować na wolnym powietrzu?</string>
+    <string name="q5">Jaka jest funkcja zamka hydraulicznego, przed czym zabezpiecza i jak sprawdzić jego poprawne działanie w podestach?</string>
+    <string name="q6">W jakich sytuacjach  należy zgłosić podest do badania doraźnego eksploatacyjnego?</string>
+    <string name="q7">Jakie rodzaje urządzeń (podestów) będzie można obsługiwać posiadając uprawnienie KAT. I P?</string>
+    <string name="q8">Jakie są podstawowe elementy zabezpieczające typu mechanicznego, stosowane w podestach ruchomych wolnobieżnych?</string>
+    <string name="q9">W  jaki sposób można  przeprowadzić próbę szczelności układu hydraulicznego w podestach ruchomych wolnobieżnych?</string>
+    <string name="q10">Jaką funkcję spełnia zawór przelewowy w  układzie, oraz przed czym zawór przelewowy zabezpiecza?</string>
+    <string name="q11">Czy uprawnienia są terminowe, gdzie są ważne i kiedy jest możliwość ich cofnięcia?</string>
+    <string name="q12">Jakie warunki musi spełniać podest ruchomy wolnobieżny by można było eksploatować urządzenie?</string>
+    <string name="q13">Jakie są podstawowe elementy zabezpieczające występujące w układach hydraulicznych podestów ruchomych wolnobieżnych?</string>
+    <string name="q14">Jakie jest poprawne działanie poziomicy sferycznej, oraz jak sprawdzić poprawność działania poziomicy sferycznej</string>
+    <string name="q15">W jaki sposób realizowana jest funkcja  awaryjnego opuszczania w podestach ruchomych wolnobieżnych – podać trzy systemy awaryjnego opuszczania:</string>
+    <string name="q16">Kto decyduje o sprawności UTB (Urządzenia Transportu Bliskiego) podlegającego pod Urząd Dozoru Technicznego?</string>
+    <string name="q17">Które czynności są w obowiązku do wykonywania przez operatora podestu przed rozpoczęciem pracy?</string>
+    <string name="q18">W jaki sposób powinna być otwierana bramka wejściowa na podest ruchomy wolnobieżny?</string>
+    <string name="q19">Jakie są funkcje podpór hydraulicznych oraz ich poprawne działanie?</string>
+    <string name="q20">Jakie są rodzaje UTB (Urządzeń Transportu Bliskiego) które podlegają pod Urząd Dozoru Technicznego?</string>
+    <string name="q21">Jak należy postępować podczas zaistnienia wypadku przy obsłudze podestu ruchomego wolnobieżnego?</string>
+    <string name="q22">Na co powinien zwrócić szczególną uwagę operator podestu przy pracach wykonywanych na zewnętrz?</string>
+    <string name="q23">Jakie parametry mają wpływ na udźwig urządzenia?</string>
+    <string name="q24">Jakie są minimalne odległości od linii elektroenergetycznych, które musi zachować operator podestu ruchomego wolnobieżnego?</string>
+    <string name="q25">Czy mając uprawnienia do obsługi podestów KAT. I P  można obsługiwać podesty wiszące?</string>
+    <string name="q26">Jakie warunki musi spełniać operator podestu ruchomego wolnobieżnego by mógł obsługiwać podesty?</string>
+    <string name="q27">Jaka jest funkcja płozy (łapa oporowa) w podeście, oraz gdzie się one znajdują?</string>
+    <string name="q28">Czy obsługujący może i w jaki sposób sam przeprowadzić próbę statyczną na podeście ruchomym wolnobieżnym?</string>
+    <string name="q29">Jakie elementy (parametry) wpływają  na stateczność podestu ruchomego wolnobieżnego?</string>
+    <string name="q30">Question 10</string>
 
 
     <string name="q1a1">Q 1 Answer 1</string>
@@ -74,6 +94,108 @@
     <string name="q10a2">Q 10 Answer 2</string>
     <string name="q10a3">Q 10 Answer 3</string>
     <string name="q10a4">Q 10 Answer 4</string>
+
+    <string name="q11a1">Q 1 Answer 1</string>
+    <string name="q11a2">Q 1 Answer 2</string>
+    <string name="q11a3">Q 1 Answer 3</string>
+    <string name="q11a4">Q 1 Answer 4</string>
+
+    <string name="q12a1">Q 2 Answer 1</string>
+    <string name="q12a2">Q 2 Answer 2</string>
+    <string name="q12a3">Q 2 Answer 3</string>
+    <string name="q12a4">Q 2 Answer 4</string>
+
+    <string name="q13a1">Q 3 Answer 1</string>
+    <string name="q13a2">Q 3 Answer 2</string>
+    <string name="q13a3">Q 3 Answer 3</string>
+    <string name="q13a4">Q 3 Answer 4</string>
+
+    <string name="q14a1">Q 4 Answer 1</string>
+    <string name="q14a2">Q 4 Answer 2</string>
+    <string name="q14a3">Q 4 Answer 3</string>
+    <string name="q14a4">Q 4 Answer 4</string>
+
+    <string name="q15a1">Q 5 Answer 1</string>
+    <string name="q15a2">Q 5 Answer 2</string>
+    <string name="q15a3">Q 5 Answer 3</string>
+    <string name="q15a4">Q 5 Answer 4</string>
+
+    <string name="q16a1">Q 6 Answer 1</string>
+    <string name="q16a2">Q 6 Answer 2</string>
+    <string name="q16a3">Q 6 Answer 3</string>
+    <string name="q16a4">Q 6 Answer 4</string>
+
+    <string name="q17a1">Q 7 Answer 1</string>
+    <string name="q17a2">Q 7 Answer 2</string>
+    <string name="q17a3">Q 7 Answer 3</string>
+    <string name="q17a4">Q 7 Answer 4</string>
+
+    <string name="q18a1">Q 8 Answer 1</string>
+    <string name="q18a2">Q 8 Answer 2</string>
+    <string name="q18a3">Q 8 Answer 3</string>
+    <string name="q18a4">Q 8 Answer 4</string>
+
+    <string name="q19a1">Q 9 Answer 1</string>
+    <string name="q19a2">Q 9 Answer 2</string>
+    <string name="q19a3">Q 9 Answer 3</string>
+    <string name="q19a4">Q 9 Answer 4</string>
+
+    <string name="q20a1">Q 10 Answer 1</string>
+    <string name="q20a2">Q 10 Answer 2</string>
+    <string name="q20a3">Q 10 Answer 3</string>
+    <string name="q20a4">Q 10 Answer 4</string>
+
+    <string name="q21a1">Q 1 Answer 1</string>
+    <string name="q21a2">Q 1 Answer 2</string>
+    <string name="q21a3">Q 1 Answer 3</string>
+    <string name="q21a4">Q 1 Answer 4</string>
+
+    <string name="q22a1">Q 2 Answer 1</string>
+    <string name="q22a2">Q 2 Answer 2</string>
+    <string name="q22a3">Q 2 Answer 3</string>
+    <string name="q22a4">Q 2 Answer 4</string>
+
+    <string name="q23a1">Q 3 Answer 1</string>
+    <string name="q23a2">Q 3 Answer 2</string>
+    <string name="q23a3">Q 3 Answer 3</string>
+    <string name="q23a4">Q 3 Answer 4</string>
+
+    <string name="q24a1">Q 4 Answer 1</string>
+    <string name="q24a2">Q 4 Answer 2</string>
+    <string name="q24a3">Q 4 Answer 3</string>
+    <string name="q24a4">Q 4 Answer 4</string>
+
+    <string name="q25a1">Q 5 Answer 1</string>
+    <string name="q25a2">Q 5 Answer 2</string>
+    <string name="q25a3">Q 5 Answer 3</string>
+    <string name="q25a4">Q 5 Answer 4</string>
+
+    <string name="q26a1">Q 6 Answer 1</string>
+    <string name="q26a2">Q 6 Answer 2</string>
+    <string name="q26a3">Q 6 Answer 3</string>
+    <string name="q26a4">Q 6 Answer 4</string>
+
+    <string name="q27a1">Q 7 Answer 1</string>
+    <string name="q27a2">Q 7 Answer 2</string>
+    <string name="q27a3">Q 7 Answer 3</string>
+    <string name="q27a4">Q 7 Answer 4</string>
+
+    <string name="q28a1">Q 8 Answer 1</string>
+    <string name="q28a2">Q 8 Answer 2</string>
+    <string name="q28a3">Q 8 Answer 3</string>
+    <string name="q28a4">Q 8 Answer 4</string>
+
+    <string name="q29a1">Q 9 Answer 1</string>
+    <string name="q29a2">Q 9 Answer 2</string>
+    <string name="q29a3">Q 9 Answer 3</string>
+    <string name="q29a4">Q 9 Answer 4</string>
+
+    <string name="q30a1">Q 10 Answer 1</string>
+    <string name="q30a2">Q 10 Answer 2</string>
+    <string name="q30a3">Q 10 Answer 3</string>
+    <string name="q30a4">Q 10 Answer 4</string>
+
+
     <string name="qRA1">1</string>
     <string name="qRA2">2</string>
     <string name="qRA3">3</string>
