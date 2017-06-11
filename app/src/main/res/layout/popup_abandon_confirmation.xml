@@ -16,7 +16,8 @@
             android:layout_alignBottom="@+id/button23"
             android:layout_alignEnd="@+id/textView11"
             android:layout_alignRight="@+id/textView11"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="59dp"
+            android:layout_marginRight="59dp"
             android:background="?attr/OtherButtons"
             android:onClick="gotoMainScreenAgain"
             android:text="Tak"
@@ -24,27 +25,31 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginTop="88dp"
             android:text="Jesteś Pewny?"
+            android:textAlignment="center"
             android:textSize="30sp" />
 
         <Button
             android:id="@+id/button23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView11"
-            android:layout_alignStart="@+id/textView11"
-            android:layout_below="@+id/textView11"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="76dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="73dp"
             android:background="?attr/OtherButtons"
             android:onClick="stayThere"
             android:text="Nie"
-            android:textColor="?attr/OtherButtonsText" />
+            android:textColor="?attr/OtherButtonsText"
+            android:layout_below="@+id/textView11"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_marginStart="59dp" />
     </RelativeLayout>
 
 </RelativeLayout>

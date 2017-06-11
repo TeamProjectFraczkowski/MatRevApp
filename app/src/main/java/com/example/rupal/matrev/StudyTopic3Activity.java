@@ -49,6 +49,14 @@ public class StudyTopic3Activity extends BaseActivity{
         viewPager.addOnPageChangeListener(viewPagerPageChangeListener);
     }
 
+    @Override
+    public void onBackPressed() {
+        Intent studyActivity = new Intent(this, StudyActivity.class);
+        studyActivity.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(studyActivity);
+        finish();
+    }
+
     public void goToStudyTopic4(View view){
         Intent goToStudy4 = new Intent(this, StudyTopic4Activity.class);
         startActivity(goToStudy4);

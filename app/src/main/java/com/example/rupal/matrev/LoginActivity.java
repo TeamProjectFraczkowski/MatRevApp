@@ -85,8 +85,8 @@ public class LoginActivity extends AppCompatActivity
     }
 
     @Override
-    public void onConfigurationChanged(Configuration newCOnfig){
-        super.onConfigurationChanged(newCOnfig);
+    public void onConfigurationChanged(Configuration newConfig){
+        super.onConfigurationChanged(newConfig);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 }
