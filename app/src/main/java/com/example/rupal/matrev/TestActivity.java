@@ -66,20 +66,6 @@ public class TestActivity extends BaseActivity {
     public void onBackPressed() {
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-
-        iv1.setVisibility(View.VISIBLE);
-        iv2.setVisibility(View.VISIBLE);
-        iv3.setVisibility(View.VISIBLE);
-        iv4.setVisibility(View.VISIBLE);
-        iv5.setVisibility(View.VISIBLE);
-        iv6.setVisibility(View.VISIBLE);
-        iv7.setVisibility(View.VISIBLE);
-        iv8.setVisibility(View.VISIBLE);
-    }
-
     public void goToNextQuestion(View view)
     {
         if (isAnswerRight(answer))
