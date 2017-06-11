@@ -51,4 +51,6 @@ public class RevisionActivity extends BaseActivity {
         Intent topicActivity = new Intent(this, RevisionTopic7Activity.class);
         startActivity(topicActivity);
     }
+
 }
+

@@ -27,6 +27,14 @@ public class RevisionTopic5Activity extends BaseActivity{
     private TextView[] dots;
     private int[] layouts;
 
+    @Override
+    public void onBackPressed() {
+        Intent goToRevision = new Intent(this, RevisionActivity.class);
+        goToRevision.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(goToRevision);
+        finish();
+    }
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);

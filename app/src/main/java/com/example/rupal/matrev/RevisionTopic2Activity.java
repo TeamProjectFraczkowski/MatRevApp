@@ -10,6 +10,13 @@ import android.view.View;
  */
 
 public class RevisionTopic2Activity extends BaseActivity{
+    @Override
+    public void onBackPressed() {
+        Intent goToRevision = new Intent(this, RevisionActivity.class);
+        goToRevision.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(goToRevision);
+        finish();
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
