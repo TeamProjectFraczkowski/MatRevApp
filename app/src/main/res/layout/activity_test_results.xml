@@ -52,7 +52,7 @@
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:background="?attr/OtherButtons"
         android:onClick="goToMainScreen"
-        android:text="Home"
+        android:text="Wróć do głównego menu"
         android:textColor="?attr/OtherButtonsText" />
 
 </LinearLayout>
