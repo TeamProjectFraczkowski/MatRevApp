@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="?attr/backgroundColor">
+    android:background="?attr/backgroundColor"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
@@ -14,6 +14,7 @@
         android:text="Powtórka - Spis Treści"
         android:textAlignment="center"
         android:textColor="@color/darkBlue"
+        android:background="?attr/backgroundColor"
         android:textSize="30sp" />
 
     <ScrollView

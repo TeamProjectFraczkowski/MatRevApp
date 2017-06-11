@@ -21,13 +21,26 @@
         android:id="@+id/pointsNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:text="TextView"
         android:textAlignment="center"
         android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="?attr/OtherButtons"
+        android:textColor="?attr/OtherButtonsText"
+        android:onClick="goToCorrectAnswers"
+        android:text="Pokaż poprawne odpowiedzi" />
 
     <Button
         android:id="@+id/button18"

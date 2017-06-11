@@ -19,7 +19,7 @@ public class TestActivity extends BaseActivity {
 
     protected RadioButton rb,rb2,rb3,rb4;
     private TextView tv;
-    private ImageView iv1, iv2, iv3, iv4, iv5, iv6, iv7, iv8;
+    protected ImageView iv1, iv2, iv3, iv4, iv5, iv6, iv7, iv8;
     private Button b4;
     private int counter = 1, points = 0, qNumber = -1, answer = -1;
     private int[] availableNumbers;
@@ -64,6 +64,20 @@ public class TestActivity extends BaseActivity {
     //to disable returning previous questions
     @Override
     public void onBackPressed() {
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        iv1.setVisibility(View.VISIBLE);
+        iv2.setVisibility(View.VISIBLE);
+        iv3.setVisibility(View.VISIBLE);
+        iv4.setVisibility(View.VISIBLE);
+        iv5.setVisibility(View.VISIBLE);
+        iv6.setVisibility(View.VISIBLE);
+        iv7.setVisibility(View.VISIBLE);
+        iv8.setVisibility(View.VISIBLE);
     }
 
     public void goToNextQuestion(View view)
