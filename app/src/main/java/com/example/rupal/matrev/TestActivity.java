@@ -128,7 +128,7 @@ public class TestActivity extends BaseActivity {
         int num = -1, qNumber = -1;
 
         while (num == -1) {
-            num = rnd.nextInt(17) + 1;
+            num = rnd.nextInt(18) + 1;
 
             for (int i = 0; i < 17; i++) {
                 if (availableNumbers[i] == num) {
