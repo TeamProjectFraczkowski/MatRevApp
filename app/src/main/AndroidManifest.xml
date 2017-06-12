@@ -61,7 +61,7 @@
             android:label="Pomoc">
         </activity>
         <activity android:name=".PopupActivity"
-            android:label="Pop">
+            android:label="Porzuć Test">
         </activity>
         <activity android:name=".RevisionTopic1Activity"
             android:label="Udźwig">

@@ -5,13 +5,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
 
-public class OptionsActivity extends BaseActivity
+public class OptionsActivity extends BaseActivity implements View.OnClickListener
 {
+
+    private CheckBox chb1, chb2;
+
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_options);
+
+        chb1 = (CheckBox) findViewById(R.id.checkBox);
+        chb1.setOnClickListener(this);
+
+        chb2 = (CheckBox) findViewById(R.id.checkBox2);
+        chb2.setOnClickListener(this);
     }
 
     @Override
@@ -29,25 +38,30 @@ public class OptionsActivity extends BaseActivity
 
     public void changeTheme(View view)
     {
-        boolean checked = ((CheckBox) view).isChecked();
+        //boolean checked = ((CheckBox) view).isChecked();
 
         switch (view.getId())
         {
             case R.id.checkBox:
-                if(checked)
+                if(chb1.isChecked())
                 {
                     Utils.setTheme(getApplicationContext(), 1);
                     recreateActivity();
                 }
                 break;
             case R.id.checkBox2:
-                if(checked)
+                if(chb2.isChecked())
                 {
                     Utils.setTheme(getApplicationContext(), 2);
                     recreateActivity();
                 }
                 break;
         }
+    }
+
+    @Override
+    public void onClick(View view){
+        changeTheme(view);
     }
 
     public void recreateActivity()
