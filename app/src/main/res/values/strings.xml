@@ -15,197 +15,195 @@
 
     <string name="q1">Co nazywamy Urzędem Dozoru Technicznego?</string>
     <string name="q2">Kiedy Urząd Dozoru Technicznego wykona badania doraźne eksploatacyjne przy urządzeniu?</string>
-    <string name="q3">Proszę podać podstawowe elementy zabezpieczające typu elektrycznego, stosowane w podestach ruchomych wolnobieżnych:</string>
-    <string name="q4">Czy wszystkie podesty ruchome wolnobieżne w KAT I P mogą pracować na wolnym powietrzu?</string>
-    <string name="q5">Jaka jest funkcja zamka hydraulicznego, przed czym zabezpiecza i jak sprawdzić jego poprawne działanie w podestach?</string>
-    <string name="q6">W jakich sytuacjach  należy zgłosić podest do badania doraźnego eksploatacyjnego?</string>
-    <string name="q7">Jakie rodzaje urządzeń (podestów) będzie można obsługiwać posiadając uprawnienie KAT. I P?</string>
-    <string name="q8">Jakie są podstawowe elementy zabezpieczające typu mechanicznego, stosowane w podestach ruchomych wolnobieżnych?</string>
-    <string name="q9">W  jaki sposób można  przeprowadzić próbę szczelności układu hydraulicznego w podestach ruchomych wolnobieżnych?</string>
-    <string name="q10">Jaką funkcję spełnia zawór przelewowy w  układzie, oraz przed czym zawór przelewowy zabezpiecza?</string>
-    <string name="q11">Czy uprawnienia są terminowe, gdzie są ważne i kiedy jest możliwość ich cofnięcia?</string>
-    <string name="q12">Jakie warunki musi spełniać podest ruchomy wolnobieżny by można było eksploatować urządzenie?</string>
-    <string name="q13">Jakie są podstawowe elementy zabezpieczające występujące w układach hydraulicznych podestów ruchomych wolnobieżnych?</string>
-    <string name="q14">Jakie jest poprawne działanie poziomicy sferycznej, oraz jak sprawdzić poprawność działania poziomicy sferycznej</string>
-    <string name="q15">W jaki sposób realizowana jest funkcja  awaryjnego opuszczania w podestach ruchomych wolnobieżnych – podać trzy systemy awaryjnego opuszczania:</string>
-    <string name="q16">Kto decyduje o sprawności UTB (Urządzenia Transportu Bliskiego) podlegającego pod Urząd Dozoru Technicznego?</string>
-    <string name="q17">Które czynności są w obowiązku do wykonywania przez operatora podestu przed rozpoczęciem pracy?</string>
-    <string name="q18">W jaki sposób powinna być otwierana bramka wejściowa na podest ruchomy wolnobieżny?</string>
-    <string name="q19">Jakie są funkcje podpór hydraulicznych oraz ich poprawne działanie?</string>
-    <string name="q20">Jakie są rodzaje UTB (Urządzeń Transportu Bliskiego) które podlegają pod Urząd Dozoru Technicznego?</string>
-    <string name="q21">Jak należy postępować podczas zaistnienia wypadku przy obsłudze podestu ruchomego wolnobieżnego?</string>
-    <string name="q22">Na co powinien zwrócić szczególną uwagę operator podestu przy pracach wykonywanych na zewnętrz?</string>
-    <string name="q23">Jakie parametry mają wpływ na udźwig urządzenia?</string>
-    <string name="q24">Jakie są minimalne odległości od linii elektroenergetycznych, które musi zachować operator podestu ruchomego wolnobieżnego?</string>
-    <string name="q25">Czy mając uprawnienia do obsługi podestów KAT. I P  można obsługiwać podesty wiszące?</string>
-    <string name="q26">Jakie warunki musi spełniać operator podestu ruchomego wolnobieżnego by mógł obsługiwać podesty?</string>
-    <string name="q27">Jaka jest funkcja płozy (łapa oporowa) w podeście, oraz gdzie się one znajdują?</string>
-    <string name="q28">Czy obsługujący może i w jaki sposób sam przeprowadzić próbę statyczną na podeście ruchomym wolnobieżnym?</string>
-    <string name="q29">Jakie elementy (parametry) wpływają  na stateczność podestu ruchomego wolnobieżnego?</string>
-    <string name="q30">Question 10</string>
+    <string name="q3">Czy wszystkie podesty ruchome wolnobieżne w KAT I P mogą pracować na wolnym powietrzu?</string>
+    <string name="q4">Jaka jest funkcja zamka hydraulicznego, przed czym zabezpiecza i jak sprawdzić jego poprawne działanie w podestach?</string>
+    <string name="q5">Jakie rodzaje urządzeń (podestów) będzie można obsługiwać posiadając uprawnienie KAT. I P?</string>
+    <string name="q6">W  jaki sposób można  przeprowadzić próbę szczelności układu hydraulicznego w podestach ruchomych wolnobieżnych?</string>
+    <string name="q7">Jaką funkcję spełnia zawór przelewowy w  układzie, oraz przed czym zawór przelewowy zabezpiecza?</string>
+    <string name="q8">Czy uprawnienia są terminowe, gdzie są ważne i kiedy jest możliwość ich cofnięcia?</string>
+    <string name="q9">Jakie warunki musi spełniać podest ruchomy wolnobieżny by można było eksploatować urządzenie?</string>
+    <string name="q10">Jakie są podstawowe elementy zabezpieczające występujące w układach hydraulicznych podestów ruchomych wolnobieżnych?</string>
+    <string name="q11">Jakie jest poprawne działanie poziomicy sferycznej, oraz jak sprawdzić poprawność działania poziomicy sferycznej</string>
+    <string name="q12">W jaki sposób realizowana jest funkcja  awaryjnego opuszczania w podestach ruchomych wolnobieżnych – podać trzy systemy awaryjnego opuszczania:</string>
+    <string name="q13">Kto decyduje o sprawności UTB (Urządzenia Transportu Bliskiego) podlegającego pod Urząd Dozoru Technicznego?</string>
+    <string name="q14">Które czynności są w obowiązku do wykonywania przez operatora podestu przed rozpoczęciem pracy?</string>
+    <string name="q15">W jaki sposób powinna być otwierana bramka wejściowa na podest ruchomy wolnobieżny?</string>
+    <string name="q16">Jakie są funkcje podpór hydraulicznych oraz ich poprawne działanie?</string>
+    <string name="q17">Jakie są rodzaje UTB (Urządzeń Transportu Bliskiego) które podlegają pod Urząd Dozoru Technicznego?</string>
+    <string name="q18">Jak należy postępować podczas zaistnienia wypadku przy obsłudze podestu ruchomego wolnobieżnego?</string>
+    <string name="q19">Na co powinien zwrócić szczególną uwagę operator podestu przy pracach wykonywanych na zewnętrz?</string>
+    <string name="q20">Jakie parametry mają wpływ na udźwig urządzenia?</string>
+    <string name="q21">Jakie są minimalne odległości od linii elektroenergetycznych, które musi zachować operator podestu ruchomego wolnobieżnego?</string>
+    <string name="q22">Czy mając uprawnienia do obsługi podestów KAT. I P  można obsługiwać podesty wiszące?</string>
+    <string name="q23">Jakie warunki musi spełniać operator podestu ruchomego wolnobieżnego by mógł obsługiwać podesty?</string>
+    <string name="q24">Jaka jest funkcja płozy (łapa oporowa) w podeście, oraz gdzie się one znajdują?</string>
+    <string name="q25">Czy obsługujący może i w jaki sposób sam przeprowadzić próbę statyczną na podeście ruchomym wolnobieżnym?</string>
+    <string name="q26">Jakie elementy (parametry) wpływają  na stateczność podestu ruchomego wolnobieżnego?</string>
+    <string name="q27">Proszę podać podstawowe elementy zabezpieczające typu elektrycznego, stosowane w podestach ruchomych wolnobieżnych:</string>
+    <string name="q28">Jakie są podstawowe elementy zabezpieczające typu mechanicznego, stosowane w podestach ruchomych wolnobieżnych?</string>
 
 
-    <string name="q1a1">Q 1 Answer 1</string>
-    <string name="q1a2">Q 1 Answer 2</string>
-    <string name="q1a3">Q 1 Answer 3</string>
-    <string name="q1a4">Q 1 Answer 4</string>
 
-    <string name="q2a1">Q 2 Answer 1</string>
-    <string name="q2a2">Q 2 Answer 2</string>
-    <string name="q2a3">Q 2 Answer 3</string>
-    <string name="q2a4">Q 2 Answer 4</string>
+    <string name="q1a1">Instytucja, która sprawdza stan bezpieczeństwa pożarowego.</string>
+    <string name="q1a2">Instytucja, która kontroluje warunki pracy.</string>
+    <string name="q1a3">Sprawdza urządzenia niepodlegające pod UDT.</string>
+    <string name="q1a4">Instytucja, która ma zapewnić bezpieczne funkcjonowanie.</string>
 
-    <string name="q3a1">Q 3 Answer 1</string>
-    <string name="q3a2">Q 3 Answer 2</string>
-    <string name="q3a3">Q 3 Answer 3</string>
-    <string name="q3a4">Q 3 Answer 4</string>
+    <string name="q2a1">Po wypadku z urządzeniem poddozorowym.</string>
+    <string name="q2a2">Po awarii urządzenia.</string>
+    <string name="q2a3">Po naprawie, modernizacji, wymianie elementu lub zmianie lokalizacji.</string>
+    <string name="q2a4">Przy nowym urządzeniu.</string>
 
-    <string name="q4a1">Q 4 Answer 1</string>
-    <string name="q4a2">Q 4 Answer 2</string>
-    <string name="q4a3">Q 4 Answer 3</string>
-    <string name="q4a4">Q 4 Answer 4</string>
+    <string name="q3a1">Tak, te które mogą pracować przy sile wiatru do 12.5 m/s.</string>
+    <string name="q3a2">Tak, wszystkie.</string>
+    <string name="q3a3">Tylko podesty na pełnych kołach.</string>
+    <string name="q3a4">Tylko podesty spalinowe.</string>
 
-    <string name="q5a1">Q 5 Answer 1</string>
-    <string name="q5a2">Q 5 Answer 2</string>
-    <string name="q5a3">Q 5 Answer 3</string>
-    <string name="q5a4">Q 5 Answer 4</string>
+    <string name="q4a1">Zabezpiecza przed niepożądanymi ruchami.</string>
+    <string name="q4a2">Zabezpiecza przed wyższym podniesieniem, niż dozwolone.</string>
+    <string name="q4a3">Zabezpiecza przed wzrostem ciśnienia w układzie hydraulicznym.</string>
+    <string name="q4a4">Zabezpiecza przed pękniętym przewodem i opadnięciem kosza. Poprawne działanie sprawdza się przy obciążeniu 100%.</string>
 
-    <string name="q6a1">Q 6 Answer 1</string>
-    <string name="q6a2">Q 6 Answer 2</string>
-    <string name="q6a3">Q 6 Answer 3</string>
-    <string name="q6a4">Q 6 Answer 4</string>
+    <string name="q5a1">Podesty ruchome wolnobieżne.</string>
+    <string name="q5a2">Podesty masztowe.</string>
+    <string name="q5a3">Podesty samojezdne.</string>
+    <string name="q56a4">Podesty stacjonarne.</string>
 
-    <string name="q7a1">Q 7 Answer 1</string>
-    <string name="q7a2">Q 7 Answer 2</string>
-    <string name="q7a3">Q 7 Answer 3</string>
-    <string name="q7a4">Q 7 Answer 4</string>
+    <string name="q6a1">Przy 125% obciążeniu z koszem na wysokości 1m, sprawdzamy czy nie opada.</string>
+    <string name="q6a2">Przy 90% obciążeniu z koszem na wysokości 1m, sprawdzamy czy nie opada. </string>
+    <string name="q6a3">Przy 100% obciążeniu z koszem na wysokości 1m, sprawdzamy czy nie opada. </string>
+    <string name="q6a4">Przy 110% obciążeniu z koszem na wysokości 1m, sprawdzamy czy nie opada. </string>
 
-    <string name="q8a1">Q 8 Answer 1</string>
-    <string name="q8a2">Q 8 Answer 2</string>
-    <string name="q8a3">Q 8 Answer 3</string>
-    <string name="q8a4">Q 8 Answer 4</string>
+    <string name="q7a1">Zabezpiecza przed cofnięciem oleju.</string>
+    <string name="q7a2">Zabezpiecza przed utratą stateczności.</string>
+    <string name="q7a3">Zabezpiecza przed siłami dynamicznymi.</string>
+    <string name="q7a4">Zabezpiecza przed wzrostem ciśnienia i uszkodzeniem przewodów hydraulicznych.</string>
 
-    <string name="q9a1">Q 9 Answer 1</string>
-    <string name="q9a2">Q 9 Answer 2</string>
-    <string name="q9a3">Q 9 Answer 3</string>
-    <string name="q9a4">Q 9 Answer 4</string>
+    <string name="q8a1">Uprawnienia są bezterminowe, ważne w Polsce i cofnąć może UDT w przypadku pracy niezgodnie z instrukcją, wypadku, lub uszkodzenia urządzenia.</string>
+    <string name="q8a2">Uprawnienia są bezterminowe, ważne w Polsce i cofnąć może pracodawca w przypadku pracy niezgodnie z instrukcją, wypadku, lub uszkodzenia urządzenia.</string>
+    <string name="q8a3">Uprawnienia są terminowe, ważne poza Unią Europejską i cofnąć może UDT w przypadku pracy niezgodnie z instrukcją, wypadku, lub uszkodzenia urządzenia.</string>
+    <string name="q8a4">Uprawnienia są bezterminowe, ważne w Polsce i cofnąć może UDT lekarz w przypadku utraty wzroku i niezdolności do pracy.</string>
 
-    <string name="q10a1">Q 10 Answer 1</string>
-    <string name="q10a2">Q 10 Answer 2</string>
-    <string name="q10a3">Q 10 Answer 3</string>
-    <string name="q10a4">Q 10 Answer 4</string>
+    <string name="q9a1">Musi mieć sprawne koła, podnosić na odpowiednią wysokość.</string>
+    <string name="q9a2">Musi mieć działający łącznik STOP.</string>
+    <string name="q9a3">Musi posiadać decyzję, konserwację i być sprawny.</string>
+    <string name="q9a4">Musi posiadać instrukcję obsługi.</string>
 
-    <string name="q11a1">Q 1 Answer 1</string>
-    <string name="q11a2">Q 1 Answer 2</string>
-    <string name="q11a3">Q 1 Answer 3</string>
-    <string name="q11a4">Q 1 Answer 4</string>
+    <string name="q10a1">Zawór zwrotny jednokierunkowy, zawór zwrotny sterowany, zawór przelewowy.</string>
+    <string name="q10a2">Zawór dławiący, zawór bezpieczeństwa.</string>
+    <string name="q10a3">Zawór przelewowy, zawór bezpieczeństwa.</string>
+    <string name="q10a4">Zawór dławiący nieregulowany.</string>
 
-    <string name="q12a1">Q 2 Answer 1</string>
-    <string name="q12a2">Q 2 Answer 2</string>
-    <string name="q12a3">Q 2 Answer 3</string>
-    <string name="q12a4">Q 2 Answer 4</string>
+    <string name="q11a1">Poziomica sferyczna informuje o sile wiatru, a sprawdzić można ją przy dużych prędkościach wiatru.</string>
+    <string name="q11a2">Poziomica sferyczna informuje pracownika o przechyleniu urządzenia, a sprawdzić można symulując przechylenie poziomicy.</string>
+    <string name="q11a3">Poziomica sferyczna informuje o wysuniętych podporach, a sprawdzić można podnosząc kosz na maksymalną wysokość.</string>
+    <string name="q11a4">Poziomica sferyczna informuje o przeciążeniu, a sprawdzić można przez zabranie większej liczby osób.</string>
 
-    <string name="q13a1">Q 3 Answer 1</string>
-    <string name="q13a2">Q 3 Answer 2</string>
-    <string name="q13a3">Q 3 Answer 3</string>
-    <string name="q13a4">Q 3 Answer 4</string>
+    <string name="q12a1">Awaryjne opuszczanie jest realizowane mechanicznie, mechaniczno-elektrycznie, mechaniczno-hydraulicznie.</string>
+    <string name="q12a2">Awaryjne opuszczanie jest realizowane elektrycznie, pneumatycznie, sterowaniem elektrozaworami.</string>
+    <string name="q12a3">Awaryjne opuszczanie jest realizowane hydraulicznie, pneumatycznie, łapą serwisową.</string>
+    <string name="q12a4">Awaryjne opuszczanie jest realizowane mechanicznie, elektrycznie, hydraulicznie.</string>
 
-    <string name="q14a1">Q 4 Answer 1</string>
-    <string name="q14a2">Q 4 Answer 2</string>
-    <string name="q14a3">Q 4 Answer 3</string>
-    <string name="q14a4">Q 4 Answer 4</string>
+    <string name="q13a1">Pracownik UDT, pracownik służby BHP, inspektor z PIP.</string>
+    <string name="q13a2">Konserwator, pracownik służby BHP, pracownik z uprawnieniami KAT. II P.</string>
+    <string name="q13a3">Inspektor UDT, konserwator, pracodawca, pracownik z uprawnieniami KAT. I P.</string>
+    <string name="q13a4">Inspektor z PIP, inspektor z UDT, pracownik bez uprawnień.</string>
 
-    <string name="q15a1">Q 5 Answer 1</string>
-    <string name="q15a2">Q 5 Answer 2</string>
-    <string name="q15a3">Q 5 Answer 3</string>
-    <string name="q15a4">Q 5 Answer 4</string>
+    <string name="q14a1">Sprawdzenie decyzji, konserwacji, instrukcji.</string>
+    <string name="q14a2">Sprawdzenie ciśnienia w kołach, pogody.</string>
+    <string name="q14a3">Sprawdzenie czy inni pracownicy posiadają uprawnienia KAT. II P.</string>
+    <string name="q14a4">Sprawdzenie naklejki o decyzji.</string>
 
-    <string name="q16a1">Q 6 Answer 1</string>
-    <string name="q16a2">Q 6 Answer 2</string>
-    <string name="q16a3">Q 6 Answer 3</string>
-    <string name="q16a4">Q 6 Answer 4</string>
+    <string name="q15a1">Na zewnątrz.</string>
+    <string name="q15a2">Nie musi jej być wcale.</string>
+    <string name="q15a3">Do środka.</string>
+    <string name="q15a4">Może otwierać się do środka i na zewnątrz.</string>
 
-    <string name="q17a1">Q 7 Answer 1</string>
-    <string name="q17a2">Q 7 Answer 2</string>
-    <string name="q17a3">Q 7 Answer 3</string>
-    <string name="q17a4">Q 7 Answer 4</string>
+    <string name="q16a1">Podpory hydrauliczne mają pomagac w wyższym podniesieniu urządzenia.</string>
+    <string name="q16a2">Podpory hydrauliczne mają zabezpieczyć przed uszkodzeniem hydrauliki.</string>
+    <string name="q16a3">Podpory hydrauliczne mają zabezpieczyc pracowników przed wypadnięciem.</string>
+    <string name="q16a4">Podpory hydrauliczne mają zabezpieczyć przed przechyleniem i ustabilizować podest.</string>
 
-    <string name="q18a1">Q 8 Answer 1</string>
-    <string name="q18a2">Q 8 Answer 2</string>
-    <string name="q18a3">Q 8 Answer 3</string>
-    <string name="q18a4">Q 8 Answer 4</string>
+    <string name="q17a1">Suwnice, podesty, wózki jezdniowe, urządzenia dla niepełnosprawnych, karuzele i schody ruchome.</string>
+    <string name="q17a2">Pociągi, statki, urządzenia transportu ciśnieniowego.</string>
+    <string name="q17a3">Pojazdy szynowe, żurawie budowlane, statki.</string>
+    <string name="q17a4">Wózki jezdniowe, przenośniki taśmowe, agregaty prądotwórcze.</string>
 
-    <string name="q19a1">Q 9 Answer 1</string>
-    <string name="q19a2">Q 9 Answer 2</string>
-    <string name="q19a3">Q 9 Answer 3</string>
-    <string name="q19a4">Q 9 Answer 4</string>
+    <string name="q18a1">Q 10 Answer 1</string>
+    <string name="q18a2">Q 10 Answer 2</string>
+    <string name="q18a3">Q 10 Answer 3</string>
+    <string name="q18a4">Q 10 Answer 4</string>
 
-    <string name="q20a1">Q 10 Answer 1</string>
-    <string name="q20a2">Q 10 Answer 2</string>
-    <string name="q20a3">Q 10 Answer 3</string>
-    <string name="q20a4">Q 10 Answer 4</string>
+    <string name="q19a1">Q 1 Answer 1</string>
+    <string name="q19a2">Q 1 Answer 2</string>
+    <string name="q19a3">Q 1 Answer 3</string>
+    <string name="q19a4">Q 1 Answer 4</string>
 
-    <string name="q21a1">Q 1 Answer 1</string>
-    <string name="q21a2">Q 1 Answer 2</string>
-    <string name="q21a3">Q 1 Answer 3</string>
-    <string name="q21a4">Q 1 Answer 4</string>
+    <string name="q20a1">Q 2 Answer 1</string>
+    <string name="q20a2">Q 2 Answer 2</string>
+    <string name="q20a3">Q 2 Answer 3</string>
+    <string name="q20a4">Q 2 Answer 4</string>
 
-    <string name="q22a1">Q 2 Answer 1</string>
-    <string name="q22a2">Q 2 Answer 2</string>
-    <string name="q22a3">Q 2 Answer 3</string>
-    <string name="q22a4">Q 2 Answer 4</string>
+    <string name="q21a1">Q 3 Answer 1</string>
+    <string name="q21a2">Q 3 Answer 2</string>
+    <string name="q21a3">Q 3 Answer 3</string>
+    <string name="q21a4">Q 3 Answer 4</string>
 
-    <string name="q23a1">Q 3 Answer 1</string>
-    <string name="q23a2">Q 3 Answer 2</string>
-    <string name="q23a3">Q 3 Answer 3</string>
-    <string name="q23a4">Q 3 Answer 4</string>
+    <string name="q22a1">Q 4 Answer 1</string>
+    <string name="q22a2">Q 4 Answer 2</string>
+    <string name="q22a3">Q 4 Answer 3</string>
+    <string name="q22a4">Q 4 Answer 4</string>
 
-    <string name="q24a1">Q 4 Answer 1</string>
-    <string name="q24a2">Q 4 Answer 2</string>
-    <string name="q24a3">Q 4 Answer 3</string>
-    <string name="q24a4">Q 4 Answer 4</string>
+    <string name="q23a1">Q 5 Answer 1</string>
+    <string name="q23a2">Q 5 Answer 2</string>
+    <string name="q23a3">Q 5 Answer 3</string>
+    <string name="q23a4">Q 5 Answer 4</string>
 
-    <string name="q25a1">Q 5 Answer 1</string>
-    <string name="q25a2">Q 5 Answer 2</string>
-    <string name="q25a3">Q 5 Answer 3</string>
-    <string name="q25a4">Q 5 Answer 4</string>
+    <string name="q24a1">Q 6 Answer 1</string>
+    <string name="q24a2">Q 6 Answer 2</string>
+    <string name="q24a3">Q 6 Answer 3</string>
+    <string name="q24a4">Q 6 Answer 4</string>
 
-    <string name="q26a1">Q 6 Answer 1</string>
-    <string name="q26a2">Q 6 Answer 2</string>
-    <string name="q26a3">Q 6 Answer 3</string>
-    <string name="q26a4">Q 6 Answer 4</string>
+    <string name="q25a1">Q 7 Answer 1</string>
+    <string name="q25a2">Q 7 Answer 2</string>
+    <string name="q25a3">Q 7 Answer 3</string>
+    <string name="q25a4">Q 7 Answer 4</string>
 
-    <string name="q27a1">Q 7 Answer 1</string>
-    <string name="q27a2">Q 7 Answer 2</string>
-    <string name="q27a3">Q 7 Answer 3</string>
-    <string name="q27a4">Q 7 Answer 4</string>
+    <string name="q26a1">Q 8 Answer 1</string>
+    <string name="q26a2">Q 8 Answer 2</string>
+    <string name="q26a3">Q 8 Answer 3</string>
+    <string name="q26a4">Q 8 Answer 4</string>
+
+    <string name="q27a1">Q 8 Answer 1</string>
+    <string name="q27a2">Q 8 Answer 2</string>
+    <string name="q27a3">Q 8 Answer 3</string>
+    <string name="q27a4">Q 8 Answer 4</string>
 
     <string name="q28a1">Q 8 Answer 1</string>
     <string name="q28a2">Q 8 Answer 2</string>
     <string name="q28a3">Q 8 Answer 3</string>
     <string name="q28a4">Q 8 Answer 4</string>
 
-    <string name="q29a1">Q 9 Answer 1</string>
-    <string name="q29a2">Q 9 Answer 2</string>
-    <string name="q29a3">Q 9 Answer 3</string>
-    <string name="q29a4">Q 9 Answer 4</string>
-
-    <string name="q30a1">Q 10 Answer 1</string>
-    <string name="q30a2">Q 10 Answer 2</string>
-    <string name="q30a3">Q 10 Answer 3</string>
-    <string name="q30a4">Q 10 Answer 4</string>
 
 
-    <string name="qRA1">1</string>
-    <string name="qRA2">2</string>
-    <string name="qRA3">3</string>
-    <string name="qRA4">3</string>
-    <string name="qRA5">2</string>
-    <string name="qRA6">2</string>
+    <string name="qRA1">4</string>
+    <string name="qRA2">3</string>
+    <string name="qRA3">1</string>
+    <string name="qRA4">4</string>
+    <string name="qRA5">1</string>
+    <string name="qRA6">3</string>
     <string name="qRA7">4</string>
     <string name="qRA8">1</string>
-    <string name="qRA9">1</string>
-    <string name="qRA10">3</string>
+    <string name="qRA9">3</string>
+    <string name="qRA10">1</string>
+    <string name="qRA11">2</string>
+    <string name="qRA12">4</string>
+    <string name="qRA13">3</string>
+    <string name="qRA14">1</string>
+    <string name="qRA15">3</string>
+    <string name="qRA16">4</string>
+    <string name="qRA17">1</string>
+    <string name="qRA18">1</string>
 
     <string name="study1">Ustawa z  dnia 21 grudnia  2000 r.  o Dozorze Technicznym ( Dz. U. nr 122,poz 1321 ze zm. )</string>
     <string name="study2">Art. 1</string>

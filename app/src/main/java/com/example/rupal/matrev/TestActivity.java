@@ -50,9 +50,9 @@ public class TestActivity extends BaseActivity {
         iv8.setVisibility(View.INVISIBLE);
 
         // TODO: Change this after increasing number of questions
-        availableNumbers = new int[30];
+        availableNumbers = new int[17];
 
-        for (int i = 0; i < 30; i++)
+        for (int i = 0; i < 17; i++)
         {
             availableNumbers[i] = i + 1;
         }
@@ -128,9 +128,9 @@ public class TestActivity extends BaseActivity {
         int num = -1, qNumber = -1;
 
         while (num == -1) {
-            num = rnd.nextInt(31) + 1;
+            num = rnd.nextInt(17) + 1;
 
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 17; i++) {
                 if (availableNumbers[i] == num) {
                     availableNumbers[i] = -1;
                     qNumber = num;
