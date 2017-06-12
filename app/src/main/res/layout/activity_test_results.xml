@@ -4,18 +4,17 @@
     android:layout_height="match_parent" android:background="?attr/backgroundColor">
 
     <TextView
-        android:text="Rezultaty"
+        android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView6"
-        android:textColor="@color/lightBlue"
-        android:background="@color/darkBlue"
-        android:textAlignment="center"
-        android:textSize="30sp"
         android:layout_marginBottom="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp" />
+        android:layout_marginTop="15dp"
+        android:text="Rezultaty"
+        android:textAlignment="center"
+        android:textColor="@color/darkBlue"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/pointsNumber"
